@@ -1,3 +1,5 @@
+# Learning Java: A Test-Driven Approach (1e, 1st printing) Errata
+
 Page vii: expose => exposure
 
 Page 41: the `else if (b % 2 == 0)` case in the `pow` method should be defined as
