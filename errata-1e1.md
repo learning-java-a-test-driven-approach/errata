@@ -22,6 +22,8 @@ else if (b % 2 == 0) {
 ...
 ```
 
+Page 60, Example 2.16: the string `"gafia` should have an ending double quote: "gafia"
+
 Page 367:
 The `IBinarySearch<Integer> search = new TailRecursiveBinarySearch<>();` should not have the type parameters, because the method inside the class uses generic types directly. The fix is `IBinarySearch search = new TailRecursiveBinarySearch()`.
 
