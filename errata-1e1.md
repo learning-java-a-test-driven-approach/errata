@@ -2,7 +2,7 @@
 
 Page vii: expose => exposure
 
-Page 23: the `static double stats` method should return a `String`; not a `double`.
+Page 23: the `static double stats` method should return a `String`; not a `double`. *Found by Marlena Ames.*
 
 Page 26: on the fifth line, `if (x != 10 && y != 5) { y += 5; }` should instead be `if (x == 10 && y != 5) { y += 5; }`. *Found by Ty Rimedio.*
 
