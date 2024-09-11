@@ -4,7 +4,7 @@ Page vii: expose => exposure
 
 Page 23: the `static double stats` method should return a `String`; not a `double`.
 
-Page 26: on the fifth line, `if (x != 10 && y != 5) { y += 5; }` should instead be `if (x == 10 && y != 5) { y += 5; }`.
+Page 26: on the fifth line, `if (x != 10 && y != 5) { y += 5; }` should instead be `if (x == 10 && y != 5) { y += 5; }`. *Found by Ty Rimedio.*
 
 Page 41: the `else if (b % 2 == 0)` case in the `pow` method should be defined as
 
