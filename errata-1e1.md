@@ -64,7 +64,7 @@
     </tr>
     <tr>
       <td>79</td>
-      <td>Exercise 2.44 should include a clause saying that methods to make the problem trivial, e.g., `Integer.parseInt`, are disallowed.</td>
+      <td>Exercise 2.44 should include a clause saying that methods to make the problem trivial, e.g., <code>Integer.parseInt</code>, are disallowed.</td>
       <td></td>
       <td>Peter Perry</td>
     </tr>
