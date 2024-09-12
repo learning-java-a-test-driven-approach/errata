@@ -1,36 +1,78 @@
-# Learning Java: A Test-Driven Approach (1e, 1st printing) Errata
-
-Page vii: expose => exposure
-
-Page 23: the `static double stats` method should return a `String`; not a `double`. *Found by Marlena Ames.*
-
-Page 26: on the fifth line, `if (x != 10 && y != 5) { y += 5; }` should instead be `if (x == 10 && y != 5) { y += 5; }`. *Found by Ty Rimedio.*
-
-Page 41: the `else if (b % 2 == 0)` case in the `pow` method should be defined as
-
-```Java
-...
-else if (b % 2 == 0) {
-    return pow(n * n, b / 2);
-}
-...
-```
-
-Page 42: the `else if (b % 2 == 0)` case in the `powTRHelper` method should be defined as
-
-```Java
-...
-else if (b % 2 == 0) {
-    return powTRHelper(n * n, b / 2, n * acc);
-}
-...
-```
-
-Page 60, Example 2.16: the string `"gafia` should have an ending double quote: `"gafia"`
-
-Page 76, Exercise 2.34: Part (b) should read, "Design the `isFactorionTR` tail recursive method, which solves the same problem as part (a), but uses tail recursion." *Found by Owen Harris.*
-
-Page 367:
-The `IBinarySearch<Integer> search = new TailRecursiveBinarySearch<>();` should not have the type parameters, because the method inside the class uses generic types directly. The fix is `IBinarySearch search = new TailRecursiveBinarySearch()`.
-
-The `assertAll(...)` block has three `assertEquals` statements that end with semicolons. The first two should be changed to commas `,` or else the code fails to compile.
+<table>
+  <thead>
+    <tr>
+      <th>Page</th>
+      <th>Error/Correction</th>
+      <th>Notes</th>
+      <th>Credits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>vii</td>
+      <td>Replace "expose" with "exposure".</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>The <code>static double stats</code> method should return a <code>String</code>, not a <code>double</code>.</td>
+      <td></td>
+      <td>Marlena Ames</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Condition <code>if (x != 10 && y != 5) { y += 5; }</code> should be <code>if (x == 10 && y != 5) { y += 5; }</code>.</td>
+      <td></td>
+      <td>Ty Rimedio</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>The <code>else if (b % 2 == 0)</code> case in the <code>pow</code> method should be:
+        <pre><code>
+        else if (b % 2 == 0) {
+            return pow(n * n, b / 2);
+        }
+        </code></pre>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>The <code>else if (b % 2 == 0)</code> case in the <code>powTRHelper</code> method should be:
+        <pre><code>
+        else if (b % 2 == 0) {
+            return powTRHelper(n * n, b / 2, n * acc);
+        }
+        </code></pre>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>Add the missing ending double quote: <code>"gafia"</code>.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>76</td>
+      <td>Part (b) description should read: "Design the <code>isFactorionTR</code> tail recursive method, which solves the same problem as part (a), but uses tail recursion."</td>
+      <td></td>
+      <td>Owen Harris</td>
+    </tr>
+    <tr>
+      <td>367</td>
+      <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>367</td>
+      <td>The first two <code>assertEquals</code> semicolons should be changed to commas in the <code>assertAll(...)</code> block.</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
