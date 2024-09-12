@@ -63,6 +63,12 @@
       <td>Owen Harris</td>
     </tr>
     <tr>
+      <td>79</td>
+      <td>Exercise 2.44 should include a clause saying that methods to make the problem trivial, e.g., `Integer.parseInt`, are disallowed.</td>
+      <td></td>
+      <td>Peter Perry</td>
+    </tr>
+    <tr>
       <td>367</td>
       <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
       <td></td>
