@@ -80,5 +80,11 @@
       <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td>390</td>
+      <td>The last sentence of Example 7.4 should read, "Thereofre, concluding that, in the average case, binary search runs in &Theta;(lg n) time is incorrect.</td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
