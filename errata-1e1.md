@@ -86,5 +86,11 @@
       <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td>392</td>
+      <td>The first sentence should read, "The problem here is that, there is a point at which picking a constant c will not satisfy the inequality for all n greater than n0."</td>
+      <td></td>
+      <td></td>
+    </tr>    
   </tbody>
 </table>
