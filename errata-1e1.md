@@ -69,6 +69,12 @@
       <td>Peter Perry</td>
     </tr>
     <tr>
+      <td>185</td>
+      <td>Exercise 3.65 should say, "In particular, we have a 2D array of strings whose first row contains column headers to a database. Examples of such columns may be 'ID', 'Name', 'Age', 'Salary', and so forth." The last sentence of the first paragraph should be removed as there is no context. In the second paragraph, change the last few words to "...returns the (data in the) rows that satisfy the criteria enforced by the command." Change the "...indicate everyone in the database." to "...indicate all rows in the database."</td>
+      <td></td>
+      <td>Germinari</td>
+    </tr>
+    <tr>
       <td>367</td>
       <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
       <td></td>
