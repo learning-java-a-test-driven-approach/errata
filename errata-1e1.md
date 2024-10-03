@@ -69,6 +69,13 @@
       <td>Peter Perry</td>
     </tr>
     <tr>
+    <tr>
+      <td>176</td>
+      <td>The third example in Exercise 3.24 should have the 11 changed to a 1.</td>
+      <td></td>
+      <td>Josh Rudnik</td>
+    </tr>
+    <tr>
       <td>185</td>
       <td>Exercise 3.65 should say, "In particular, we have a 2D array of strings whose first row contains column headers to a database. Examples of such columns may be 'ID', 'Name', 'Age', 'Salary', and so forth." The last sentence of the first paragraph should be removed as there is no context. <br /> <br />In the second paragraph, change the last few words to "...returns the data from the rows that satisfy the criteria enforced by the command." <br /> <br />Change the definition of a <code>Command</code> to <code>A Command is "SELECT &lt;count&gt; &lt;header&gt; WHERE &lt;predicate&gt;"</code>.<br /> <br />Update the third paragraph to say "The <code>SELECT</code> command receives a <code>&lt;count&gt;</code> and a <code>&lt;header&gt;</code> to designate that the command should return <math>n</math> rows with data from the <code>&lt;header&gt;</code> column. An asterisk can be used to select all rows in the database."</td>
       <td></td>
