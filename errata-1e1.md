@@ -69,6 +69,11 @@
       <td>Peter Perry</td>
     </tr>
     <tr>
+      <td>136</td>
+      <td>In Figure 3.9, the <code>add</code> method should instead say, "If <code>e</code> is not in <code>S</code>, it returns <code>true</code>; otherwise, it returns <code>false</code>."</td>
+      <td></td>
+      <td>Dylan Waintraub</td>
+    </tr>
     <tr>
       <td>176</td>
       <td>The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.</td>
