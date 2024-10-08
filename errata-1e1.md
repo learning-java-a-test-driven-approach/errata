@@ -69,6 +69,13 @@
       <td>Peter Perry</td>
     </tr>
     <tr>
+    <tr>
+      <td>108</td>
+      <td>Dynamic "programmingg" => Dynamic programming</td>
+      <td></td>
+      <td>Peter Perry</td>
+    </tr>
+    <tr>      
       <td>136</td>
       <td>In Figure 3.9, the <code>add</code> method should instead say, "If <code>e</code> is not in <code>S</code>, it returns <code>true</code>; otherwise, it returns <code>false</code>."</td>
       <td></td>
