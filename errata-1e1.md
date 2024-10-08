@@ -10,10 +10,8 @@
 | 79    | Exercise 2.44 should include a clause saying that methods to make the problem trivial, e.g., `Integer.parseInt`, are disallowed.                                                  |       | Peter Perry      |
 | 136   | In Figure 3.9, the `add` method should instead say, "If `e` is not in `S`, it returns `true`; otherwise, it returns `false`."                                                     |       | Dylan Waintraub  |
 | 140   | In Figure 3.10, the `size` method should instead say that it returns the number of logical elements in the "map" rather than "set".                                               |       | Dylan Waintraub  |
-| 148   | <pre><code>
-import ... class ... { }
-
-</code></pre>                                                                                                                                  |       | Joshua Park      |
+| 148   | In Example 3.40, the code snippet should be <pre><code>import java.util.ArrayDeque; <br />import java.util.Deque; <br />import java.util.Iterator; <br />import java.util.List; <br />import java.util.Stack; <br />class StackPrinter { <br />public static void main(String[] args) { <br />List&lt;Integer&gt; L = List.of(10, 20, 30, 40, 50); <br />Stack&lt;Integer&gt; S = new Stack&lt;&gt;(List.of(10, 20, 30, 40, 50)); <br />for (int x : L) { S.push(x); } <br />for (int x : S) { System.out.println(x); } <br />Deque&lt;Integer&gt; D = new ArrayDeque&lt;&gt;(); <br />for (int x : L) { D.push(x); } <br />for (int x : D) { System.out.println(x); } <br />} <br />}</code></pre>
+                                                                                                                                 |       | Joshua Park      |
 | 176   | The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.                                          |       | Josh Rudnik      |
 | 185   | Exercise 3.65 should say, "In particular, we have a 2D array of strings whose first row contains column headers to a database. Examples of such columns may be 'ID', 'Name', 'Age'|       | Germinari        |
 |       | , 'Salary', and so forth." The last sentence of the first paragraph should be removed as there is no context. In the second paragraph, change the last few words to "...returns   |       |                 |
