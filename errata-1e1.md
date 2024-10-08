@@ -75,6 +75,12 @@
       <td>Dylan Waintraub</td>
     </tr>
     <tr>
+      <td>140</td>
+      <td>In Figure 3.10, the <code>size</code> method should instead say that it returns the number of logical elements in the "map" rather than "set".</td>
+      <td></td>
+      <td>Dylan Waintraub</td>
+    </tr>
+    <tr>
       <td>176</td>
       <td>The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.</td>
       <td></td>
