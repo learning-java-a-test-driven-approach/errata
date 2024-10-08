@@ -85,30 +85,30 @@
       <td>The code snippet of Example 3.40 should be as follows:
       <pre>
         <code>
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Stack;
+        import java.util.ArrayDeque;
+        import java.util.Deque;
+        import java.util.Iterator;
+        import java.util.List;
+        import java.util.Stack;
           
-class StackPrinter {
-  public static void main(String[] args) {
-    List&lt;Integer&gt; L = List.of(10, 20, 30, 40, 50);
-    Stack&lt;Integer&gt; S = new Stack&lt;&gt;(List.of(10, 20, 30, 40, 50));
-    for (int x : L) { S.push(x); }
-    
-    // Enhanced for loop prints the stack elements "incorrectly!"
-    // An Iterator also has this issue.
-    // We get "10, 20, 30, 40, 50" separated by newlines.
-    for (int x : S) { System.out.println(x); }
-    
-    Deque&lt;Integer&gt; D = new ArrayDeque&lt;&gt;();
-    for (int x : L) { D.push(x); }
-    // An ArrayDeque corrects this problem.
-    // We correctly get "50, 40, 30, 20, 10" separated by newlines.
-    for (int x : D) { System.out.println(x); }
-  }
-}
+        class StackPrinter {
+          public static void main(String[] args) {
+            List<Integer> L = List.of(10, 20, 30, 40, 50);
+            Stack<Integer> S = new Stack<>(List.of(10, 20, 30, 40, 50));
+            for (int x : L) { S.push(x); }
+            
+            // Enhanced for loop prints the stack elements "incorrectly!"
+            // An Iterator also has this issue.
+            // We get "10, 20, 30, 40, 50" separated by newlines.
+            for (int x : S) { System.out.println(x); }
+            
+            Deque<Integer> D = new ArrayDeque<>();
+            for (int x : L) { D.push(x); }
+            // An ArrayDeque corrects this problem.
+            // We correctly get "50, 40, 30, 20, 10" separated by newlines.
+            for (int x : D) { System.out.println(x); }
+          }
+        }
         </code>
       </pre>
       
