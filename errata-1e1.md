@@ -87,7 +87,6 @@
       <td>
         The code snippet of Example 3.40 should be as follows:
         <pre>
-        <code>
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Iterator;
@@ -112,7 +111,6 @@ class StackPrinter {
     for (int x : D) { System.out.println(x); }
   }
 }
-        </code>
       </pre>
       </td>
       <td></td>
