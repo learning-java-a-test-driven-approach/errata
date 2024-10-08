@@ -84,8 +84,7 @@
       <td>148</td>
       <td>The code snippet of Example 3.40 should be as follows:
         <br />
-      <pre>
-        <code>
+      ```java
         import java.util.ArrayDeque;
         import java.util.Deque;
         import java.util.Iterator;
@@ -110,8 +109,7 @@
             for (int x : D) { System.out.println(x); }
           }
         }
-        </code>
-      </pre>
+       ```
       
       </td>
       <td></td>
