@@ -80,42 +80,38 @@
       <td></td>
       <td>Dylan Waintraub</td>
     </tr>
-    <tr>
-      <td>148</td>
-      <td>The code snippet of Example 3.40 should be as follows:
-        <br />
-      ```java
-        
-        import java.util.ArrayDeque;
-        import java.util.Deque;
-        import java.util.Iterator;
-        import java.util.List;
-        import java.util.Stack;
-          
-        class StackPrinter {
-          public static void main(String[] args) {
-            List<Integer> L = List.of(10, 20, 30, 40, 50);
-            Stack<Integer> S = new Stack<>(List.of(10, 20, 30, 40, 50));
-            for (int x : L) { S.push(x); }
-            
-            // Enhanced for loop prints the stack elements "incorrectly!"
-            // An Iterator also has this issue.
-            // We get "10, 20, 30, 40, 50" separated by newlines.
-            for (int x : S) { System.out.println(x); }
-            
-            Deque<Integer> D = new ArrayDeque<>();
-            for (int x : L) { D.push(x); }
-            // An ArrayDeque corrects this problem.
-            // We correctly get "50, 40, 30, 20, 10" separated by newlines.
-            for (int x : D) { System.out.println(x); }
-          }
-        }
-       ```
-      
-      </td>
-      <td></td>
-      <td>Joshua Park</td>
-    </tr>
+<tr>
+  <td>148</td>
+  <td>The code snippet of Example 3.40 should be as follows:
+    <br />
+    <pre><code>
+    import java.util.ArrayDeque;
+    import java.util.Deque;
+    import java.util.Iterator;
+    import java.util.List;
+    import java.util.Stack;
+
+    class StackPrinter {
+      public static void main(String[] args) {
+        List<Integer> L = List.of(10, 20, 30, 40, 50);
+        Stack<Integer> S = new Stack<>(List.of(10, 20, 30, 40, 50));
+        for (int x : L) { S.push(x); }
+
+        // Enhanced for loop prints the stack elements "incorrectly!"
+        for (int x : S) { System.out.println(x); }
+
+        Deque<Integer> D = new ArrayDeque<>();
+        for (int x : L) { D.push(x); }
+        // An ArrayDeque corrects this problem.
+        for (int x : D) { System.out.println(x); }
+      }
+    }
+    </code></pre>
+  </td>
+  <td></td>
+  <td>Joshua Park</td>
+</tr>
+
     <tr>
       <td>176</td>
       <td>The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.</td>
