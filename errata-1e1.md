@@ -81,6 +81,22 @@
       <td>Dylan Waintraub</td>
     </tr>
     <tr>
+      <td>148</td>
+      <td>
+<pre>
+  <code>
+import ...
+
+class ... {
+
+}
+  </code>
+</pre>
+        
+      </td>
+      <td></td>
+      <td>Joshua Park</td>
+    </tr>
       <td>176</td>
       <td>The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.</td>
       <td></td>
