@@ -82,7 +82,7 @@
     </tr>
 <tr>
   <td>148</td>
-  <td>The code snippet of Example 3.40 should be as follows:
+  <td>The code snippet of Example 3.40 should be as follows (note that the errata omits the comments due to a strange Markdown bug):
     <br />
    <pre style="white-space: pre;"><code>
      import java.util.ArrayDeque; <br /><br />
