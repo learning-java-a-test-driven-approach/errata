@@ -91,9 +91,16 @@
      import java.util.List; <br />
      import java.util.Stack; <br />
      class StackPrinter { <br />
-        public static void main(String[] args) { <br />
-          List&lt;Integer&gt; L = List.of(10, 20, 30, 40, 50); <br />Stack&lt;Integer&gt; S = new Stack&lt;&gt;(List.of(10, 20, 30, 40, 50)); <br />for (int x : L) { S.push(x); } <br />for (int x : S) { System.out.println(x); } <br />Deque&lt;Integer&gt; D = new ArrayDeque&lt;&gt;(); <br />for (int x : L) { D.push(x); } <br />for (int x : D) { System.out.println(x); } <br />} <br />}</code></pre>
-
+       public static void main(String[] args) { <br />
+         List&lt;Integer&gt; L = List.of(10, 20, 30, 40, 50); <br />
+         Stack&lt;Integer&gt; S = new Stack&lt;&gt;(); <br />
+         for (int x : L) { S.push(x); } <br />
+         for (int x : S) { System.out.println(x); } <br />
+         Deque&lt;Integer&gt; D = new ArrayDeque&lt;&gt;(); <br />
+         for (int x : L) { D.push(x); } <br />
+         for (int x : D) { System.out.println(x); } <br />
+       } <br />
+     }</code></pre>
   </td>
   <td></td>
   <td>Joshua Park</td>
