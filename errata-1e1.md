@@ -85,6 +85,7 @@
       <td>The code snippet of Example 3.40 should be as follows:
         <br />
       ```java
+        
         import java.util.ArrayDeque;
         import java.util.Deque;
         import java.util.Iterator;
