@@ -1,22 +1,124 @@
-| Page  | Error/Correction                                                                                                                                                                | Notes | Credits         |
-|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|-----------------|
-| vii   | Replace "expose" with "exposure".                                                                                                                                                |       |                 |
-| 23    | The `static double stats` method should return a `String`, not a `double`.                                                                                                       |       | Marlena Ames     |
-| 26    | Condition `if (x != 10 && y != 5) { y += 5; }` should be `if (x == 10 && y != 5) { y += 5; }`.                                                                                   |       | Ty Rimedio       |
-| 41    | The `else if (b % 2 == 0)` case in the `pow` method should be: <pre><code>else if (b % 2 == 0) { return pow(n * n, b / 2); }</code></pre>                                         |       |                 |
-| 42    | The `else if (b % 2 == 0)` case in the `powTRHelper` method should be: <pre><code>else if (b % 2 == 0) { return powTRHelper(n * n, b / 2, n * acc); }</code></pre>               |       |                 |
-| 60    | Add the missing ending double quote: `"gafia"`.                                                                                                                                  |       |                 |
-| 76    | Part (b) description should read: "Design the `isFactorionTR` tail recursive method, which solves the same problem as part (a), but uses tail recursion."                        |       | Owen Harris      |
-| 79    | Exercise 2.44 should include a clause saying that methods to make the problem trivial, e.g., `Integer.parseInt`, are disallowed.                                                  |       | Peter Perry      |
-| 136   | In Figure 3.9, the `add` method should instead say, "If `e` is not in `S`, it returns `true`; otherwise, it returns `false`."                                                     |       | Dylan Waintraub  |
-| 140   | In Figure 3.10, the `size` method should instead say that it returns the number of logical elements in the "map" rather than "set".                                               |       | Dylan Waintraub  |
-| 148   | In Example 3.40, the code snippet should be <pre><code>import java.util.ArrayDeque; <br />import java.util.Deque; <br />import java.util.Iterator; <br />import java.util.List; <br />import java.util.Stack; <br />class StackPrinter { <br />public static void main(String[] args) { <br />List&lt;Integer&gt; L = List.of(10, 20, 30, 40, 50); <br />Stack&lt;Integer&gt; S = new Stack&lt;&gt;(List.of(10, 20, 30, 40, 50)); <br />for (int x : L) { S.push(x); } <br />for (int x : S) { System.out.println(x); } <br />Deque&lt;Integer&gt; D = new ArrayDeque&lt;&gt;(); <br />for (int x : L) { D.push(x); } <br />for (int x : D) { System.out.println(x); } <br />} <br />}</code></pre>
-                                                                                                                                 |       | Joshua Park      |
-| 176   | The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.                                          |       | Josh Rudnik      |
-| 185   | Exercise 3.65 should say, "In particular, we have a 2D array of strings whose first row contains column headers to a database. Examples of such columns may be 'ID', 'Name', 'Age'|       | Germinari        |
-|       | , 'Salary', and so forth." The last sentence of the first paragraph should be removed as there is no context. In the second paragraph, change the last few words to "...returns   |       |                 |
-|       | the data from the rows that satisfy the criteria enforced by the command." Change the definition of a `Command` to `A Command is "SELECT <count> <header> WHERE <predicate>"`.    |       |                 |
-|       | Update the third paragraph to say "The `SELECT` command receives a `<count>` and a `<header>` to designate that the command should return *n* rows with data from the `<header>`. |       |                 |
-| 367   | Remove type parameters: `IBinarySearch search = new TailRecursiveBinarySearch();`.                                                                                               |       |                 |
-| 367   | The first two `assertEquals` semicolons should be changed to commas in the `assertAll(...)` block.                                                                               |       |                 |
-| 390   | The last sentence of Example 7.4 should read, "Therefore, concluding that, in the average case, binary search runs in Θ(lg n) time is incorrect."                                 |       |                 |
+<table>
+  <thead>
+    <tr>
+      <th>Page</th>
+      <th>Error/Correction</th>
+      <th>Notes</th>
+      <th>Credits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>vii</td>
+      <td>Replace "expose" with "exposure".</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>The <code>static double stats</code> method should return a <code>String</code>, not a <code>double</code>.</td>
+      <td></td>
+      <td>Marlena Ames</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Condition <code>if (x != 10 && y != 5) { y += 5; }</code> should be <code>if (x == 10 && y != 5) { y += 5; }</code>.</td>
+      <td></td>
+      <td>Ty Rimedio</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>The <code>else if (b % 2 == 0)</code> case in the <code>pow</code> method should be:
+        <pre><code>
+        else if (b % 2 == 0) {
+            return pow(n * n, b / 2);
+        }
+        </code></pre>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>The <code>else if (b % 2 == 0)</code> case in the <code>powTRHelper</code> method should be:
+        <pre><code>
+        else if (b % 2 == 0) {
+            return powTRHelper(n * n, b / 2, n * acc);
+        }
+        </code></pre>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>Add the missing ending double quote: <code>"gafia"</code>.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>76</td>
+      <td>Part (b) description should read: "Design the <code>isFactorionTR</code> tail recursive method, which solves the same problem as part (a), but uses tail recursion."</td>
+      <td></td>
+      <td>Owen Harris</td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td>Exercise 2.44 should include a clause saying that methods to make the problem trivial, e.g., <code>Integer.parseInt</code>, are disallowed.</td>
+      <td></td>
+      <td>Peter Perry</td>
+    </tr>
+    <tr>
+      <td>136</td>
+      <td>In Figure 3.9, the <code>add</code> method should instead say, "If <code>e</code> is not in <code>S</code>, it returns <code>true</code>; otherwise, it returns <code>false</code>."</td>
+      <td></td>
+      <td>Dylan Waintraub</td>
+    </tr>
+    <tr>
+      <td>140</td>
+      <td>In Figure 3.10, the <code>size</code> method should instead say that it returns the number of logical elements in the "map" rather than "set".</td>
+      <td></td>
+      <td>Dylan Waintraub</td>
+    </tr>
+<tr>
+  <td>148</td>
+  <td>The code snippet of Example 3.40 should be as follows:
+    <br />
+   <pre><code>import java.util.ArrayDeque; <br />import java.util.Deque; <br />import java.util.Iterator; <br />import java.util.List; <br />import java.util.Stack; <br />class StackPrinter { <br />public static void main(String[] args) { <br />List&lt;Integer&gt; L = List.of(10, 20, 30, 40, 50); <br />Stack&lt;Integer&gt; S = new Stack&lt;&gt;(List.of(10, 20, 30, 40, 50)); <br />for (int x : L) { S.push(x); } <br />for (int x : S) { System.out.println(x); } <br />Deque&lt;Integer&gt; D = new ArrayDeque&lt;&gt;(); <br />for (int x : L) { D.push(x); } <br />for (int x : D) { System.out.println(x); } <br />} <br />}</code></pre>
+
+  </td>
+  <td></td>
+  <td>Joshua Park</td>
+</tr>
+    <tr>
+      <td>176</td>
+      <td>The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.</td>
+      <td></td>
+      <td>Josh Rudnik</td>
+    </tr>
+    <tr>
+      <td>185</td>
+      <td>Exercise 3.65 should say, "In particular, we have a 2D array of strings whose first row contains column headers to a database. Examples of such columns may be 'ID', 'Name', 'Age', 'Salary', and so forth." The last sentence of the first paragraph should be removed as there is no context. <br /> <br />In the second paragraph, change the last few words to "...returns the data from the rows that satisfy the criteria enforced by the command." <br /> <br />Change the definition of a <code>Command</code> to <code>A Command is "SELECT &lt;count&gt; &lt;header&gt; WHERE &lt;predicate&gt;"</code>.<br /> <br />Update the third paragraph to say "The <code>SELECT</code> command receives a <code>&lt;count&gt;</code> and a <code>&lt;header&gt;</code> to designate that the command should return <math>n</math> rows with data from the <code>&lt;header&gt;</code> column. An asterisk can be used to select all rows in the database."</td>
+      <td></td>
+      <td>Germinari</td>
+    </tr>
+    <tr>
+      <td>367</td>
+      <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>367</td>
+      <td>The first two <code>assertEquals</code> semicolons should be changed to commas in the <code>assertAll(...)</code> block.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>390</td>
+      <td>The last sentence of Example 7.4 should read, "Therefore, concluding that, in the average case, binary search runs in &Theta;(lg n) time is incorrect."</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
