@@ -28,7 +28,8 @@
     </tr>
     <tr>
       <td>41</td>
-      <td>The <code>else if (b % 2 == 0)</code> case in the <code>pow</code> method should be:
+      <td>
+        The <code>else if (b % 2 == 0)</code> case in the <code>pow</code> method should be:
         <pre><code>
         else if (b % 2 == 0) {
             return pow(n * n, b / 2);
@@ -40,7 +41,8 @@
     </tr>
     <tr>
       <td>42</td>
-      <td>The <code>else if (b % 2 == 0)</code> case in the <code>powTRHelper</code> method should be:
+      <td>
+        The <code>else if (b % 2 == 0)</code> case in the <code>powTRHelper</code> method should be:
         <pre><code>
         else if (b % 2 == 0) {
             return powTRHelper(n * n, b / 2, n * acc);
@@ -82,8 +84,9 @@
     </tr>
     <tr>
       <td>148</td>
-      <td>The code snippet of Example 3.40 should be as follows:
-      <pre>
+      <td>
+        The code snippet of Example 3.40 should be as follows:
+        <pre>
         <code>
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -111,7 +114,6 @@ class StackPrinter {
 }
         </code>
       </pre>
-      
       </td>
       <td></td>
       <td>Joshua Park</td>
@@ -124,7 +126,11 @@ class StackPrinter {
     </tr>
     <tr>
       <td>185</td>
-      <td>Exercise 3.65 should say, "In particular, we have a 2D array of strings whose first row contains column headers to a database. Examples of such columns may be 'ID', 'Name', 'Age', 'Salary', and so forth." The last sentence of the first paragraph should be removed as there is no context. <br /> <br />In the second paragraph, change the last few words to "...returns the data from the rows that satisfy the criteria enforced by the command." <br /> <br />Change the definition of a <code>Command</code> to <code>A Command is "SELECT &lt;count&gt; &lt;header&gt; WHERE &lt;predicate&gt;"</code>.<br /> <br />Update the third paragraph to say "The <code>SELECT</code> command receives a <code>&lt;count&gt;</code> and a <code>&lt;header&gt;</code> to designate that the command should return <math>n</math> rows with data from the <code>&lt;header&gt;</code> column. An asterisk can be used to select all rows in the database."</td>
+      <td>
+        Exercise 3.65 should say, "In particular, we have a 2D array of strings whose first row contains column headers to a database. Examples of such columns may be 'ID', 'Name', 'Age', 'Salary', and so forth." The last sentence of the first paragraph should be removed as there is no context. <br /> <br />In the second paragraph, change the last few words to "...returns the data from the rows that satisfy the criteria enforced by the command." <br /> <br />Change the definition of a <code>Command</code> to <code>A Command is "SELECT &lt;count&gt; &lt;header&gt; WHERE &lt;predicate&gt;"</code>.<br /> <br />Update the third paragraph to say "The <code>SELECT</code> command receives a <code>&lt;count&gt;</code> and a <code>&lt;header&gt;</code> to designate that the command should return 
+        <math>n</math>
+        rows with data from the <code>&lt;header&gt;</code> column. An asterisk can be used to select all rows in the database."
+      </td>
       <td></td>
       <td>Germinari</td>
     </tr>
