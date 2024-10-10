@@ -131,6 +131,12 @@
       <td>Germinari</td>
     </tr>
     <tr>
+      <td>186</td>
+      <td>Exercise 3.66, part (d) should say, "...assign the character literal <code>'0'</code>, then loop over...".</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>367</td>
       <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
       <td></td>
