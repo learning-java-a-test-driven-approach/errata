@@ -132,7 +132,7 @@
     </tr>
     <tr>
       <td>186</td>
-      <td>Exercise 3.66, part (d) should say, "...assign the character literal <code>'0'</code>, then loop over...".</td>
+      <td>Exercise 3.66, part (d) should say, "...assign the character literal <code>'0'</code>, then loop over...".<br /> <br />In the same part, change the use of <code>extendPath</code> to <code>extPath</code>.</td>
       <td></td>
       <td></td>
     </tr>
