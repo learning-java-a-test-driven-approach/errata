@@ -118,6 +118,19 @@
       <td></td>
       <td></td>
     </tr>
+          <tr>
+      <td>157</td>
+      <td>In Example 3.47, in between the sentence, "...works it folds over the list/stream..." add a semicolon immediately after the word "works".</td>
+      <td></td>
+      <td></td>
+    </tr>
+        </tr>
+          <tr>
+      <td>157</td>
+      <td>In the footnote, change <code>foldr</code> to <code>foldl</code>.</td>
+      <td></td>
+      <td></td>
+    </tr>
     <tr>
       <td>176</td>
       <td>The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.</td>
