@@ -150,6 +150,12 @@
       <td></td>
     </tr>
     <tr>
+      <td>235</td>
+      <td>Change "...of the iterator superclass." to "...of the iterator class."</td>
+      <td></td>
+      <td></td>
+    </tr>  
+    <tr>
       <td>367</td>
       <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
       <td></td>
