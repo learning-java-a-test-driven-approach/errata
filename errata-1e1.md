@@ -28,9 +28,9 @@
     </tr>
     <tr>
       <td>41</td>
-      <td>The <code>else if (b % 2 == 0)</code> case in the <code>pow</code> method should be:
+      <td>The <code>else if(b % 2 == 0)</code> case in the <code>pow</code> method should be:
         <pre><code>
-        else if (b % 2 == 0) {
+        else if(b % 2 == 0) {
             return pow(n * n, b / 2);
         }
         </code></pre>
@@ -40,9 +40,9 @@
     </tr>
     <tr>
       <td>42</td>
-      <td>The <code>else if (b % 2 == 0)</code> case in the <code>powTRHelper</code> method should be:
+      <td>The <code>else if(b % 2 == 0)</code> case in the <code>powTRHelper</code> method should be:
         <pre><code>
-        else if (b % 2 == 0) {
+        else if(b % 2 == 0) {
             return powTRHelper(n * n, b / 2, n * acc);
         }
         </code></pre>
@@ -81,6 +81,12 @@
       <td></td>
       <td>Dylan Waintraub</td>
     </tr>
+    <tr>      
+      <td>136</td>
+      <td>In Figure 3.9, the caption should read, "Useful <code>Set</code>-based Methods." rather than "Useful <code>Sets</code>-based Methods."</td>
+      <td></td>
+      <td></td>
+    </tr>    
     <tr>
       <td>140</td>
       <td>In Figure 3.10, the <code>size</code> method should instead say that it returns the number of logical elements in the "map" rather than "set".</td>
