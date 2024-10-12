@@ -22,7 +22,7 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Condition <code>if (x != 10 && y != 5) { y += 5; }</code> should be <code>if (x == 10 && y != 5) { y += 5; }</code>.</td>
+      <td>Condition <code>if(x != 10 && y != 5) { y += 5; }</code> should be <code>if(x == 10 && y != 5) { y += 5; }</code>.</td>
       <td></td>
       <td>Ty Rimedio</td>
     </tr>
