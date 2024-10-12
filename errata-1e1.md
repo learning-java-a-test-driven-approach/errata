@@ -150,14 +150,8 @@
       <td></td>
     </tr>
     <tr>
-      <td>234</td>
-      <td>Example 4.20 should not even be in this section; it should be moved to the end of section 4.3 on interfaces.</td>
-      <td></td>
-      <td></td>
-    </tr>  
-    <tr>
       <td>235</td>
-      <td>Change "...of the iterator superclass." to "...of the iterator class."</td>
+      <td>This part of the example should not be in this section; it should be moved to the end of section 4.3 on interfaces. Regardless, change "...of the iterator superclass." to "...of the iterator class."</td>
       <td></td>
       <td></td>
     </tr>
