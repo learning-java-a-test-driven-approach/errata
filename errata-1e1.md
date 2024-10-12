@@ -150,8 +150,20 @@
       <td></td>
     </tr>
     <tr>
+      <td>234</td>
+      <td>Example 4.20 should not even be in this section; it should be moved to the end of section 4.3 on interfaces.</td>
+      <td></td>
+      <td></td>
+    </tr>  
+    <tr>
       <td>235</td>
       <td>Change "...of the iterator superclass." to "...of the iterator class."</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>235-236</td>
+      <td>In the code listing with <code>DoublyLLIterator</code>, the <code>hasNext</code> and <code>next</code> methods should be marked as <code>public</code> because they are inherited from an interface.</td>
       <td></td>
       <td></td>
     </tr>  
