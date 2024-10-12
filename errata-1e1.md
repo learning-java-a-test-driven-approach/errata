@@ -22,15 +22,15 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Condition <code>if(x != 10 && y != 5) { y += 5; }</code> should be <code>if(x == 10 && y != 5) { y += 5; }</code>.</td>
+      <td>Condition <code>if (x != 10 && y != 5) { y += 5; }</code> should be <code>if (x == 10 && y != 5) { y += 5; }</code>.</td>
       <td></td>
       <td>Ty Rimedio</td>
     </tr>
     <tr>
       <td>41</td>
-      <td>The <code>else if(b % 2 == 0)</code> case in the <code>pow</code> method should be:
+      <td>The <code>else if (b % 2 == 0)</code> case in the <code>pow</code> method should be:
         <pre><code>
-        else if(b % 2 == 0) {
+        else if (b % 2 == 0) {
             return pow(n * n, b / 2);
         }
         </code></pre>
