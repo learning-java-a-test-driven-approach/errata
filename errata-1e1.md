@@ -89,7 +89,7 @@
     </tr>
     <tr>
       <td>122</td>
-      <td>The calls to <code>filterQuarters</code> and <code>assertEquals</code> semicolons should be changed to commas in the <code>assertAll(...)</code> block.</td>
+      <td>The semicolons after the calls to <code>filterQuarters</code> and <code>assertEquals</code> should be changed to commas in the <code>assertAll(...)</code> block.</td>
       <td></td>
       <td></td>
     </tr>
@@ -177,6 +177,12 @@
       <td></td>
     </tr>  
     <tr>
+      <td>167</td>
+      <td>The semicolons after the calls to <code>assertNull</code> and <code>assertEquals</code> should be changed to commas in the <code>assertAll(...)</code> block.</td>
+      <td></td>
+      <td></td>
+    </tr>          
+    <tr>
       <td>176</td>
       <td>The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.</td>
       <td></td>
@@ -214,7 +220,7 @@
     </tr>
     <tr>
       <td>367</td>
-      <td>The first two <code>assertEquals</code> semicolons should be changed to commas in the <code>assertAll(...)</code> block.</td>
+      <td>The semicolons after the first two <code>assertEquals</code> calls should be changed to commas in the <code>assertAll(...)</code> block.</td>
       <td></td>
       <td></td>
     </tr>
