@@ -58,10 +58,16 @@
     </tr>
     <tr>
       <td>76</td>
-      <td>Part (b) description should read: "Design the <code>isFactorionTR</code> tail recursive method, which solves the same problem as part (a), but uses tail recursion."</td>
+      <td>Exercise 2.34, part (b) description should read: "Design the <code>isFactorionTR</code> tail recursive method, which solves the same problem as part (a), but uses tail recursion."</td>
       <td></td>
       <td>Owen Harris</td>
     </tr>
+    <tr>
+      <td>78</td>
+      <td>In Exercise 2.39, part (a) description should not contain <i>(9 points)</i>.</td>
+      <td></td>
+      <td></td>
+    </tr>    
     <tr>
       <td>79</td>
       <td>Exercise 2.44 should include a clause saying that methods to make the problem trivial, e.g., <code>Integer.parseInt</code>, are disallowed.</td>
