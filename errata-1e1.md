@@ -92,7 +92,22 @@
       <td>The calls to <code>filterQuarters</code> and <code>assertEquals</code> semicolons should be changed to commas in the <code>assertAll(...)</code> block.</td>
       <td></td>
       <td></td>
-    </tr>    
+    </tr>
+    <tr>      
+      <td>133</td>
+      <td>In Example 3.30, the code for instantiating a <code>Comparator</code> inside the <code>priorityByP</code> method should be:
+      <pre><code>
+      static PriorityQueue<String> priorityByP() {
+        Comparator<String> c = new Comparator<>() {
+          @Override
+          public int compare(String s1, String s2) { /* TODO. */ }
+        };
+      }
+      </code></pre>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>        
     <tr>      
       <td>136</td>
       <td>In Figure 3.9, the <code>add</code> method should instead say, "If <code>e</code> is not in <code>S</code>, it returns <code>true</code>; otherwise, it returns <code>false</code>."</td>
