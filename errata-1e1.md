@@ -86,7 +86,13 @@
       <td>In the <code>getFromList</code> method, the <code>return (idx &lt; 0 || &gt;= upperBound) ? -1 : list[idx];</code> should include the <code>i</code> variable in front of the <code>&gt=</code>.</td>
       <td></td>
       <td></td>
-    </tr>       
+    </tr>
+    <tr>
+      <td>122</td>
+      <td>The calls to <code>filterQuarters</code> and <code>assertEquals</code> semicolons should be changed to commas in the <code>assertAll(...)</code> block.</td>
+      <td></td>
+      <td></td>
+    </tr>    
     <tr>      
       <td>136</td>
       <td>In Figure 3.9, the <code>add</code> method should instead say, "If <code>e</code> is not in <code>S</code>, it returns <code>true</code>; otherwise, it returns <code>false</code>."</td>
