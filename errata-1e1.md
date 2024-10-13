@@ -217,7 +217,13 @@
       <td>In the <code>testPointRandom</code> method, the semicolons after the calls to <code>assertEquals</code> should be changed to commas in the <code>assertAll(...)</code> block.</td>
       <td></td>
       <td></td>
-    </tr>            
+    </tr>
+    <tr>      
+      <td>216</td>
+      <td>Add a comma after the closing parenthesis on <code>assertEquals(3, new Board(2, 3, BOARD).getCols())</code>.</td>
+      <td></td>
+      <td></td>
+    </tr>  
     <tr>
       <td>235</td>
       <td>This part of the example should not be in this section; it should be moved to the end of section 4.3 on interfaces. Regardless, change "...of the iterator superclass." to "...of the iterator class."</td>
