@@ -243,6 +243,12 @@
       <td></td>
     </tr>  
     <tr>
+      <td>327</td>
+      <td>Remove the last parenthesis ')' and semicolon after the <code>assertDoesNotThrow</code>call. Add a closing parenthesis ')' and a semicolon after the <code>assertThrows</code> call in the <code>assertAll(...)</code> block.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>367</td>
       <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
       <td></td>
