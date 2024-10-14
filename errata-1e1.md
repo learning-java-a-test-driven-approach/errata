@@ -249,6 +249,12 @@
       <td></td>
     </tr>
     <tr>
+      <td>361</td>
+      <td>Change the first sentence in the abstract from, "This section is divided into..." to "This chapter is divided into..."</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>367</td>
       <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
       <td></td>
