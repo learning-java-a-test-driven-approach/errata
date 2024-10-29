@@ -241,7 +241,13 @@
       <td>In the code listing with <code>DoublyLLIterator</code>, the <code>hasNext</code> and <code>next</code> methods should be marked as <code>public</code> because they are inherited from an interface.</td>
       <td></td>
       <td></td>
-    </tr>  
+    </tr>
+    <tr>
+      <td>300</td>
+      <td>Exercise 4.8: "This question has six parts" should be "This question has seven parts."</td>
+      <td></td>
+      <td>Dylan Waintraub</td>
+    </tr>          
     <tr>
       <td>327</td>
       <td>Remove the last parenthesis ')' and semicolon after the <code>assertDoesNotThrow</code>call. Add a closing parenthesis ')' and a semicolon after the <code>assertThrows</code> call in the <code>assertAll(...)</code> block.</td>
