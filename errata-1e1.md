@@ -242,6 +242,10 @@
       <td></td>
       <td></td>
     </tr>
+      <td>298</td>
+      <td>Exercise 4.5, part (d), step (ii) should say, "If u does not exist or t is not the title of a playlist authored by u, return false."</td>
+      <td></td>
+      <td></td>          
     <tr>
       <td>300</td>
       <td>Exercise 4.8: "This question has six parts" should be "This question has seven parts."</td>
