@@ -75,7 +75,6 @@
       <td>Peter Perry</td>
     </tr>
     <tr>
-    <tr>
       <td>108</td>
       <td>Dynamic "programmingg" => Dynamic programming</td>
       <td></td>
