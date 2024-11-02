@@ -240,6 +240,12 @@
       <td>In the code listing with <code>DoublyLLIterator</code>, the <code>hasNext</code> and <code>next</code> methods should be marked as <code>public</code> because they are inherited from an interface.</td>
       <td></td>
       <td></td>
+    <tr>
+      <td>244</td>
+      <td>The sentence containing, "Instantiating a variable as an interface type...subtype is a form of polymorphism" should read "Initializing a variable as an interface type, then instantiating it as a subtype is a form of polymorphism."</td>
+      <td></td>
+      <td>Elliot Rubinstein</td>
+    </tr>      
     </tr>
       <td>298</td>
       <td>Exercise 4.5, part (d), step (ii) should say, "If u does not exist or t is not the title of a playlist authored by u, return false."</td>
