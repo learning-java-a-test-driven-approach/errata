@@ -246,6 +246,12 @@
       <td></td>
       <td>Elliot Rubinstein</td>
     </tr>      
+    <tr>
+      <td>253</td>
+      <td>The expected value for the final <code>assertEquals</code> in <code>FunctionMapTester</code> should be the empty list (<code>List.of</code>).</td>
+      <td></td>
+      <td>Elliot Rubinstein</td>
+    </tr>             
     </tr>
       <td>298</td>
       <td>Exercise 4.5, part (d), step (ii) should say, "If u does not exist or t is not the title of a playlist authored by u, return false."</td>
