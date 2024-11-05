@@ -265,7 +265,7 @@
     </tr>
     <tr>
       <td>307</td>
-      <td>Exercise 4.23, the last sentence should say "You cannot use <code>StringBuilder or the older <code>StringBuffer</code> classes in your implementation."</td>
+      <td>Exercise 4.23, the last sentence should say "You cannot use <code>StringBuilder</code> or the older <code>StringBuffer</code> classes in your implementation."</td>
       <td></td>
       <td></td>
     </tr>                
