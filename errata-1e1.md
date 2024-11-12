@@ -275,6 +275,42 @@
       <td></td>
       <td></td>
     </tr>
+<tr>
+  <td>330</td>
+  <td>The code snippet of Example 5.7 should be as follows (note that the errata omits the comments due to a strange Markdown bug):
+    <br />
+   <pre style="white-space: pre;"><code>
+import java.io.IOException; <br />
+import java.io.FileNotFoundException; <br />
+import java.io.FileInputStream; <br />
+ <br /> <br />
+class FileInputStreamExample { <br />
+ <br /> <br />
+  public static void main(String[] args) { <br />
+    FileInputStream fis = null; <br />
+    String inFile = "file1.in"; <br />
+    try { <br />
+      fis = new FileInputStream(inFile); <br />
+      try { <br />
+        // Read in data byte-by-byte. <br />
+        int val = -1; <br />
+        while ((val = fis.read()) != -1) {  <br />
+          System.out.print(val);  <br />
+        } <br />
+      } finally { <br />
+        fis.close(); <br />
+      } <br />
+    } catch (FileNotFoundException ex) { <br />
+      System.err.printf("main: could not find %s\n", inFile); <br />
+    } catch (IOException ex) { <br />
+      System.err.printf("main: I/O err: %s\n", ex.getMessage()); <br />
+    } <br />
+  }  <br />
+}</code></pre>
+  </td>
+  <td></td>
+  <td></td>
+</tr>          
     <tr>
       <td>361</td>
       <td>Change the first sentence in the abstract from, "This section is divided into..." to "This chapter is divided into..."</td>
