@@ -211,7 +211,7 @@
             rows with data from the <code>&lt;header&gt;</code> column. An asterisk can be used to select all rows in the database." Your implementation should be flexible enough to work with any arbitrary column over the database. (You may assume that the input <code>&lt;header&gt;</code> is a valid column in the database, but it cannot be hard-coded to fit only a particular set of database columns, e.g., <code>"ID"</code>, <code>"Name"</code>, and so forth.)<br /> <br />Finally, the last <code>'%S%</code> should have a closing single quote: <code>'%S%'</code>.
          </td>
          <td></td>
-         <td>Germinari</td>
+         <td>Lucas Carreira</td>
       </tr>
       <tr>
          <td>186</td>
