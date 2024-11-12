@@ -315,7 +315,7 @@ class FileInputStreamExample { <br />
       <td>331</td>
       <td>The sentence "So, the program reads one byte then prints it to standard output." should instead be "So, the program reads bytes from the file, then prints them to standard output.".</td>
       <td></td>
-      <td>Josh Rudnik</td>
+      <td></td>
     </tr>   
     <tr>
       <td>361</td>
