@@ -274,7 +274,7 @@
       <td>Remove the last parenthesis ')' and semicolon after the <code>assertDoesNotThrow</code>call. Add a closing parenthesis ')' and a semicolon after the <code>assertThrows</code> call in the <code>assertAll(...)</code> block.</td>
       <td></td>
       <td></td>
-    </tr>
+    </tr>       
 <tr>
   <td>330</td>
   <td>The code snippet of Example 5.7 should be as follows (note that the errata omits the comments due to a strange Markdown bug):
@@ -310,7 +310,13 @@ class FileInputStreamExample { <br />
   </td>
   <td></td>
   <td></td>
-</tr>          
+</tr>   
+              <tr>
+      <td>331</td>
+      <td>The sentence "So, the program reads one byte then prints it to standard output." should instead be "So, the program reads bytes from the file, then prints them to standard output.".</td>
+      <td></td>
+      <td>Josh Rudnik</td>
+    </tr>   
     <tr>
       <td>361</td>
       <td>Change the first sentence in the abstract from, "This section is divided into..." to "This chapter is divided into..."</td>
