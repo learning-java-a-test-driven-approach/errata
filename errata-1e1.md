@@ -325,13 +325,19 @@ class FileInputStreamExample { <br />
          <td>The sentence "So, the program reads one byte then prints it to standard output." should instead be "So, the program reads bytes from the file, then prints them to standard output.".</td>
          <td></td>
          <td></td>
-      </tr>
+      </tr>       
       <tr>
          <td>332</td>
          <td>The last sentence preceding Example 5.9 should read as "Therefore a <code>FileReader</code> interprets only textual files, i.e., files without an encoding. Examples of files <i>with</i> an encoding include <code>.pdf</code>, <code>.docx</code>, and so forth."</td>
          <td></td>
          <td></td>
       </tr>
+      <tr>
+         <td>334</td>
+         <td>The parentheses immediately before <code>new</code> in the <code>nonbuffered</code> method are superfluous. Remove both, remove a closing parenthesis before the semicolon, and remove a closing parenthesis before the opening brace on the next line.</td>
+         <td></td>
+         <td></td>
+      </tr>               
       <tr>
          <td>361</td>
          <td>Change the first sentence in the abstract from, "This section is divided into..." to "This chapter is divided into..."</td>
