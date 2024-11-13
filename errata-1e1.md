@@ -260,11 +260,18 @@
          <td></td>
          <td>Elliot Rubinstein</td>
       </tr>
+      <tr>
+         <td>280</td>
+         <td>In the <code>Archmage</code> code listing, the <code>Set&lt;Type&gt; getTypes()</code> method return type should be <code>Set&lt;IType&gt; getTypes()</code>.</td>
+         <td></td>
+         <td></td>
       </tr>
+      <tr>
       <td>298</td>
       <td>Exercise 4.5, part (d), step (ii) should say, "If u does not exist or t is not the title of a playlist authored by u, return false."</td>
       <td></td>
       <td></td>
+      </tr>
       <tr>
          <td>300</td>
          <td>Exercise 4.8: "This question has six parts" should be "This question has seven parts."</td>
