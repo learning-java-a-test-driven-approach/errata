@@ -285,6 +285,18 @@
          <td></td>
       </tr>
       <tr>
+         <td>321</td>
+         <td>Exercise 4.57 part (b), the example <code>new BigInt("-42").equals(new BigInt("-42"))</code> says that it returns <code>false</code>. Obviously, this is incorrect, and the example should be changed to <code>new BigInt("-42").equals(new BigInt("42"))</code>. Note the sign change on the second <code>BigInt</code> instance.</td>
+         <td></td>
+         <td>Owen Harris</td>
+      </tr>
+      <tr>
+         <td>322</td>
+         <td>Exercise 4.58, the sentence containing, "...as upper0cased letters..." should be "...as upper-cased letters..."</td>
+         <td></td>
+         <td></td>
+      </tr>           
+      <tr>
          <td>327</td>
          <td>Remove the last parenthesis ')' and semicolon after the <code>assertDoesNotThrow</code>call. Add a closing parenthesis ')' and a semicolon after the <code>assertThrows</code> call in the <code>assertAll(...)</code> block.</td>
          <td></td>
