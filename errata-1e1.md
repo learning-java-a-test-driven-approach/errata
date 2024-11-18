@@ -286,6 +286,12 @@
       </tr>
       <tr>
          <td>321</td>
+         <td>Exercise 4.57 part (a), the example <code>new BigInt(0000420000)</code> should instead be <code>new BigInt("0000420000")</code>.</td>
+         <td></td>
+         <td>Kashi Kumar</td>
+      </tr>                
+      <tr>
+         <td>321</td>
          <td>Exercise 4.57 part (b), the example <code>new BigInt("-42").equals(new BigInt("-42"))</code> says that it returns <code>false</code>. Obviously, this is incorrect, and the example should be changed to <code>new BigInt("-42").equals(new BigInt("42"))</code>. Note the sign change on the second <code>BigInt</code> instance.</td>
          <td></td>
          <td>Owen Harris</td>
