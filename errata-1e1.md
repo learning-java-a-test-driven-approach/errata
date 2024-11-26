@@ -376,6 +376,12 @@ class FileInputStreamExample { <br />
          <td></td>
       </tr>
       <tr>
+         <td>362</td>
+         <td>The footnote's last sentence, "Since Java does not support continuations by default, we cannot take this approach" is misleading. This is <i>exactly</i> the approach we take by using exceptions to 'bail out' of the current stack frame context.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>367</td>
          <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
          <td></td>
