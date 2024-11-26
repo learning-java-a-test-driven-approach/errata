@@ -369,6 +369,12 @@ class FileInputStreamExample { <br />
          <td></td>
          <td></td>
       </tr>
+     <tr>
+         <td>362</td>
+         <td>It's really not correct to say that, "we have no way of passing the index-to-check." We can, of course, write a standard recursive method that increments a parameter-based index.</td>
+         <td></td>
+         <td></td>
+      </tr>
       <tr>
          <td>367</td>
          <td>Remove type parameters: <code>IBinarySearch search = new TailRecursiveBinarySearch();</code>.</td>
