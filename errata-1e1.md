@@ -296,6 +296,12 @@
          <td></td>
          <td>Owen Harris</td>
       </tr>
+                 <tr>
+         <td>322</td>
+         <td>Exercise 4.57 part (j), the <code>mulPositive()</code> should receive a <code>BigInt</code> as a parameter.</td>
+         <td></td>
+         <td>Jason Wang</td>
+      </tr>
       <tr>
          <td>322</td>
          <td>Exercise 4.58, the sentence containing, "...as upper0cased letters..." should be "...as upper-cased letters..."</td>
