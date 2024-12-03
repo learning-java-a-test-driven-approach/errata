@@ -262,8 +262,8 @@
       </tr>
       <tr>
          <td>257</td>
-         <td>The code "<code>new MonomialExpression("x", 10, 4,</code>" should have a closing parenthesis before the comma: "<code>new MonomialExpression("x", 10, 4),</code>".</td>
-         <td></td>
+         <td>The code "<code>new MonomialExpression("x", 10, 4,</code>" should have a closing parenthesis before the comma: "<code>new MonomialExpression("x", 10, 4),</code>". Remove a closing parenthesis on "<code>new NumberExpression(0)))</code>": "<code></td>
+         <td></td>new NumberExpression(0))</code>".
          <td></td>
       </tr>
       <tr>
