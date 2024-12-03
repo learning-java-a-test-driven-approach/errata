@@ -261,6 +261,12 @@
          <td>Elliot Rubinstein</td>
       </tr>
       <tr>
+         <td>257</td>
+         <td>The code "<code>new MonomialExpression("x", 10, 4,</code>" should have a closing parenthesis before the comma: "<code>new MonomialExpression("x", 10, 4),</code>".</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>280</td>
          <td>In the <code>Archmage</code> code listing, the <code>Set&lt;Type&gt; getTypes()</code> method return type should be <code>Set&lt;IType&gt; getTypes()</code>.</td>
          <td></td>
