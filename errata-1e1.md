@@ -406,6 +406,12 @@ class FileInputStreamExample { <br />
          <td></td>
       </tr>
       <tr>
+         <td>374</td>
+         <td>The first sentence of section 6.2.3, "...algorithms that w will discuss." should be "...algorithms that we will discuss."</td>
+         <td></td>
+         <td>Elliot Rubinstein</td>
+      </tr>           
+      <tr>
          <td>367</td>
          <td>The semicolons after the first two <code>assertEquals</code> calls should be changed to commas in the <code>assertAll(...)</code> block.</td>
          <td></td>
