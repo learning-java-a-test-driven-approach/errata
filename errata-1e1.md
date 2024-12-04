@@ -395,7 +395,7 @@ class FileInputStreamExample { <br />
       </tr>
       <tr>
          <td>362</td>
-         <td>The footnote's last sentence, "Since Java does not support continuations by default, we cannot take this approach" is misleading. This is <i>exactly</i> the approach we take by using exceptions to 'bail out' of the current stack frame context.</td>
+         <td>The footnote's last sentence, "Since Java does not support continuations by default, we cannot take this approach" is misleading. This is <i>exactly</i> the approach we take by using exceptions to 'bail out' of the current stack frame context. What we mean when we say, "by default," we mean that Java does not natively support first-class methods in the same way that would allow us to use first-class continuations, which requires tail-call optimization. (See Scheme or Haskell's implementations of continuations for further information.)</td>
          <td></td>
          <td></td>
       </tr>
