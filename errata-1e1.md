@@ -128,6 +128,12 @@
          <td></td>
          <td>Dylan Waintraub</td>
       </tr>
+       <tr>
+         <td>145</td>
+         <td>Step 4 in the code snippet should be Step 3.</td>
+         <td></td>
+         <td></td>
+      </tr> 
       <tr>
          <td>148</td>
          <td>
