@@ -66,7 +66,7 @@
       </tr>
       <tr>
          <td>78</td>
-         <td>In Exercise 2.39, part (a) description should not contain <i>(9 points)</i>.</td>
+         <td>In Exercise 2.39, part (a) description should not contain <i>(9 points)</i>. Also, it should not contain <code>List</code>; change this to <code>String</code>. That is, it should return a string of all of the parenthesized strings concatenated together.</td>
          <td></td>
          <td></td>
       </tr>
