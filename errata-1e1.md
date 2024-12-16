@@ -424,6 +424,34 @@ class FileInputStreamExample { <br />
          <td></td>
       </tr>
       <tr>
+         <td>373</td>
+         <td>
+            The functional implementation that is listed in the book uses <code>Collections.swap</code>, which is not functional. Here is the correct implementation:
+            <br />
+            <pre style="white-space: pre;"><code>
+  @Override<br />
+  public AbstractList<T> selectionSort(AbstractList<T> ls) {<br />
+    if (ls.isEmpty() || ls.size() == 1) {<br />
+      return ls;<br />
+    } else {<br />
+      int minIdx = IntStream.range(0, ls.size())<br />
+                            .boxed()<br />
+                            .min((i1, i2) -> ls.get(i1).compareTo(ls.get(i2)))<br />
+                            .get();<br />
+      AbstractList<T> rest = (AbstractList<T>) ls.stream()<br />
+                                                 .filter(e -> e != ls.get(minIdx))<br />
+                                                 .collect(Collectors.toList());<br />
+      ArrayList<T> sorted = new ArrayList<>();<br />
+      sorted.add(ls.get(minIdx));<br />
+      sorted.addAll(selectionSort(rest));<br />
+      return sorted;<br />
+    }<br />
+  }</code></pre>
+         </td>
+         <td></td>
+         <td>Madhav Nawani</td>
+      </tr>            
+      <tr>
          <td>390</td>
          <td>The last sentence of Example 7.4 should read, "Therefore, concluding that, in the average case, binary search runs in &Theta;(lg n) time is incorrect."</td>
          <td></td>
