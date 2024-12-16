@@ -430,7 +430,7 @@ class FileInputStreamExample { <br />
             <br />
             <pre style="white-space: pre;"><code>
   @Override<br />
-  public AbstractList<T> selectionSort(AbstractList<T> ls) {<br />
+  public AbstractList<T> selectionSort(AbstractList&lt;T&gt; ls) {<br />
     if (ls.isEmpty() || ls.size() == 1) {<br />
       return ls;<br />
     } else {<br />
@@ -438,10 +438,10 @@ class FileInputStreamExample { <br />
                             .boxed()<br />
                             .min((i1, i2) -> ls.get(i1).compareTo(ls.get(i2)))<br />
                             .get();<br />
-      AbstractList<T> rest = (AbstractList<T>) ls.stream()<br />
+      AbstractList&lt;T&gt; rest = (AbstractList&lt;T&gt;) ls.stream()<br />
                                                  .filter(e -> e != ls.get(minIdx))<br />
                                                  .collect(Collectors.toList());<br />
-      ArrayList<T> sorted = new ArrayList<>();<br />
+      AbstractList&lt;T&gt; sorted = new ArrayList&lt;&gt;();<br />
       sorted.add(ls.get(minIdx));<br />
       sorted.addAll(selectionSort(rest));<br />
       return sorted;<br />
