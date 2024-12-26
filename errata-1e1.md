@@ -203,6 +203,12 @@
          <td></td>
          <td></td>
       </tr>
+        <tr>
+         <td>174</td>
+         <td>Exercise 3.18, the sliding window result should be {{1, 2}, {3, 4}, {5, 6}, {7}}. In the book, it is missing a comma between {1, 2} and {3, 4}.</td>
+         <td></td>
+         <td></td>
+      </tr>
       <tr>
          <td>176</td>
          <td>The third example in Exercise 3.24 should have the 11 changed to a 1. The description should also change 1 + 4 + 4 = 9 to 4 + 1 + 4 = 9.</td>
