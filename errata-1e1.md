@@ -333,6 +333,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>276</td>
+         <td>Change "...which returns sets to represent the types that a type is vulnerable to or strong against" to "...which return sets to represent the types that an <code>IType</code> is vulnerable to or strong against respectively."</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>280</td>
          <td>In the <code>Archmage</code> code listing, the <code>Set&lt;Type&gt; getTypes()</code> method return type should be <code>Set&lt;IType&gt; getTypes()</code>.</td>
          <td></td>
