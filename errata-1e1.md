@@ -271,7 +271,7 @@
          <td>239</td>
          <td>Example 4.21, the citation of "McCarthy (1962)" should be "(McCarthy, 1962)."</td>
          <td></td>
-         <td>Peter Perry</td>
+         <td></td>
       </tr>
          <td>244</td>
          <td>The sentence containing, "Instantiating a variable as an interface type...subtype is a form of polymorphism" should read "Initializing a variable as an interface type, then instantiating it as a subtype is a form of polymorphism."</td>
