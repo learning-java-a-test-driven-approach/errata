@@ -321,6 +321,18 @@
          <td></td>
       </tr>
       <tr>
+         <td>271</td>
+         <td>In the <code>testJuniorDeveloperPromotion</code> method, change <code>Developer d = ...</code> to <code>Developer d2 = ...</code>. Also, change the <code>assertFalse</code> invocation to <code>assertFalse(d2.promote() instanceof SeniorDeveloper)</code>.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>274</td>
+         <td>Change <code>HourlyEmployee m1 = new Manager("Abby", 30.00)</code> to <code>Manager m1 = new Manager("Abby", 30.00)</code>. This design choice unfortunately violates Liskov's substitution principle, but it works.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>280</td>
          <td>In the <code>Archmage</code> code listing, the <code>Set&lt;Type&gt; getTypes()</code> method return type should be <code>Set&lt;IType&gt; getTypes()</code>.</td>
          <td></td>
