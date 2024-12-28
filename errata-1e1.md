@@ -309,6 +309,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>269</td>
+         <td>Change the first sentence of the last paragraph to, "To keep the conversation interesting, we refrain from overriding the <code>Employee</code> method because there is no significant difference between how an <code>Employee</code> 'works' and one of its subclasses 'works.'"</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>280</td>
          <td>In the <code>Archmage</code> code listing, the <code>Set&lt;Type&gt; getTypes()</code> method return type should be <code>Set&lt;IType&gt; getTypes()</code>.</td>
          <td></td>
