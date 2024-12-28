@@ -273,6 +273,12 @@
          <td></td>
          <td></td>
       </tr>
+      <tr>
+         <td>241</td>
+         <td>Example 4.22, the <code>new List</code> line should read <code>new LinkedList</code>.</td>
+         <td></td>
+         <td></td>
+      </tr> 
          <td>244</td>
          <td>The sentence containing, "Instantiating a variable as an interface type...subtype is a form of polymorphism" should read "Initializing a variable as an interface type, then instantiating it as a subtype is a form of polymorphism."</td>
          <td></td>
