@@ -291,6 +291,12 @@
          <td>Elliot Rubinstein</td>
       </tr>
       <tr>
+         <td>255</td>
+         <td>Example 4.31, add a space between "their" and "(sub-components)".</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>257</td>
          <td>The code "<code>new MonomialExpression("x", 10, 4,</code>" should have a closing parenthesis before the comma: "<code>new MonomialExpression("x", 10, 4),</code>". Remove a closing parenthesis on "<code>new NumberExpression(0)))</code>": "<code></td>
          <td></td>
