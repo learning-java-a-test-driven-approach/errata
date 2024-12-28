@@ -315,6 +315,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>271</td>
+         <td>Change "whomever" to "whoever."</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>280</td>
          <td>In the <code>Archmage</code> code listing, the <code>Set&lt;Type&gt; getTypes()</code> method return type should be <code>Set&lt;IType&gt; getTypes()</code>.</td>
          <td></td>
