@@ -250,6 +250,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>234</td>
+         <td>Near the end of the page, we say that a private class can only ever be static. This is not correct. The footnote should also be removed.</td>
+         <td></td>
+         <td></td>
+      </tr>           
+      <tr>
          <td>235</td>
          <td>This part of the example should not be in this section; it should be moved to the end of section 4.3 on interfaces. Regardless, change "...of the iterator superclass." to "...of the iterator class."</td>
          <td></td>
