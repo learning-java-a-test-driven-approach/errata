@@ -405,6 +405,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>329</td>
+         <td>Example 5.6, replace "an parameter" with "a parameter." This entire example is botched and should be rewritten/omitted. As is, it does not convey the utility of creating a custom exception very well, nor should it use <code>Scanner</code> to demonstrate that capability.</td>
+         <td></td>
+         <td></td>
+      </tr>            
+      <tr>
          <td>330</td>
          <td>
             The code snippet of Example 5.7 should be as follows (note that the errata omits the comments due to a strange Markdown bug):
