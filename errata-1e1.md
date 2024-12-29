@@ -394,7 +394,7 @@
       </tr>
       <tr>
          <td>325</td>
-         <td>Change the last sentence of the paragraph at the start of section 5.1 to, "We will discuss several different exception types by categorizing them into one of two types: unchecked versus checked exceptions."</td>
+         <td>Change the last sentence of the paragraph at the start of section 5.1 to, "We will discuss several different exceptions by categorizing them into one of two types: unchecked versus checked exceptions."</td>
          <td></td>
          <td></td>
       </tr>
