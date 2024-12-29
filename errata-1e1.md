@@ -391,7 +391,13 @@
          <td>Exceptions are not, themselves, effect <i>handlers</i>. Exceptions are control-flow operators that identify events that occur at runtime.</td>
          <td></td>
          <td></td>
-      </tr>        
+      </tr>
+      <tr>
+         <td>325</td>
+         <td>Change the last sentence of the paragraph at the start of section 5.1 to, "We will discuss several different exception types by categorizing them into one of two types: unchecked versus checked exceptions."</td>
+         <td></td>
+         <td></td>
+      </tr>
       <tr>
          <td>327</td>
          <td>Remove the last parenthesis ')' and semicolon after the <code>assertDoesNotThrow</code>call. Add a closing parenthesis ')' and a semicolon after the <code>assertThrows</code> call in the <code>assertAll(...)</code> block.</td>
