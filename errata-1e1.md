@@ -464,7 +464,13 @@ class FileInputStreamExample { <br />
          <td>The parentheses immediately before <code>new</code> in the <code>nonbuffered</code> method are superfluous. Remove both, remove a closing parenthesis before the semicolon, and remove a closing parenthesis before the opening brace on the next line.</td>
          <td></td>
          <td></td>
-      </tr>               
+      </tr>     
+      <tr>
+         <td>342</td>
+         <td>Change "I/O error" to "I/O problem."</td>
+         <td></td>
+         <td></td>
+      </tr>
       <tr>
          <td>361</td>
          <td>Change the first sentence in the abstract from, "This section is divided into..." to "This chapter is divided into..."</td>
