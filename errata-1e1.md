@@ -88,18 +88,6 @@
          <td></td>
          <td></td>
       </tr>
-         <tr>
-         <td>122</td>
-         <td>The <code>t1</code> and <code>t2</code> declarations should be instantiated to <code>new ArrayList&lt;&gt;(List.of(...))</code>, because just using <code>List.of</code> creates an immutable list.</td>
-         <td></td>
-         <td></td>
-      </tr>
-      <tr>
-         <td>122</td>
-         <td>The semicolons after the calls to <code>filterQuarters</code> and <code>assertEquals</code> should be changed to commas in the <code>assertAll(...)</code> block.</td>
-         <td></td>
-         <td></td>
-      </tr>
 
       <tr>
          <td>133</td>
