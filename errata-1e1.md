@@ -88,9 +88,9 @@
          <td></td>
          <td></td>
       </tr>
-            <tr>
+         <tr>
          <td>122</td>
-         <td>The <code>t1</code> and <code>t2</code> declarations should be instantiated to <code>new ArrayList<>(List.of(...))</code>, because just using List.of creates an immutable list.</td>
+         <td>The <code>t1</code> and <code>t2</code> declarations should be instantiated to <code>new ArrayList&lt;&gt;(List.of(...))</code>, because just using <code>List.of</code> creates an immutable list.</td>
          <td></td>
          <td></td>
       </tr>
