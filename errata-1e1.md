@@ -88,7 +88,18 @@
          <td></td>
          <td></td>
       </tr>
-
+      <tr>
+         <td>122</td>
+         <td>The <code>t1</code> and <code>t2</code> declarations should be instantiated to <code>new ArrayList&lt;&gt;(List.of(...))</code>, because just using <code>List.of</code> creates an immutable list.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>122</td>
+         <td>The semicolons after the calls to <code>filterQuarters</code> and <code>assertEquals</code> should be changed to commas in the <code>assertAll(...)</code> block.</td>
+         <td></td>
+         <td></td>
+      </tr>
       <tr>
          <td>133</td>
          <td>
@@ -123,12 +134,12 @@
          <td></td>
          <td>Dylan Waintraub</td>
       </tr>
-       <tr>
+      <tr>
          <td>145</td>
          <td>Step 4 in the code snippet should be Step 3.</td>
          <td></td>
          <td></td>
-      </tr> 
+      </tr>
       <tr>
          <td>148</td>
          <td>
@@ -198,7 +209,7 @@
          <td></td>
          <td></td>
       </tr>
-        <tr>
+      <tr>
          <td>174</td>
          <td>Exercise 3.18, the sliding window result should be {{1, 2}, {3, 4}, {5, 6}, {7}}. In the book, it is missing a comma between {1, 2} and {3, 4}.</td>
          <td></td>
@@ -249,7 +260,7 @@
          <td>Near the end of the page, we say that a private class can only ever be static. This is not correct. The footnote should also be removed.</td>
          <td></td>
          <td></td>
-      </tr>           
+      </tr>
       <tr>
          <td>235</td>
          <td>This part of the example should not be in this section; it should be moved to the end of section 4.3 on interfaces. Regardless, change "...of the iterator superclass." to "...of the iterator class."</td>
@@ -273,11 +284,11 @@
          <td>Example 4.22, the <code>new List</code> line should read <code>new LinkedList</code>.</td>
          <td></td>
          <td></td>
-      </tr> 
-         <td>244</td>
-         <td>The sentence containing, "Instantiating a variable as an interface type...subtype is a form of polymorphism" should read "Initializing a variable as an interface type, then instantiating it as a subtype is a form of polymorphism."</td>
-         <td></td>
-         <td>Elliot Rubinstein</td>
+      </tr>
+      <td>244</td>
+      <td>The sentence containing, "Instantiating a variable as an interface type...subtype is a form of polymorphism" should read "Initializing a variable as an interface type, then instantiating it as a subtype is a form of polymorphism."</td>
+      <td></td>
+      <td>Elliot Rubinstein</td>
       </tr>
       <tr>
          <td>253</td>
@@ -340,10 +351,10 @@
          <td></td>
       </tr>
       <tr>
-      <td>298</td>
-      <td>Exercise 4.5, part (d), step (ii) should say, "If u does not exist or t is not the title of a playlist authored by u, return false."</td>
-      <td></td>
-      <td></td>
+         <td>298</td>
+         <td>Exercise 4.5, part (d), step (ii) should say, "If u does not exist or t is not the title of a playlist authored by u, return false."</td>
+         <td></td>
+         <td></td>
       </tr>
       <tr>
          <td>300</td>
@@ -362,14 +373,14 @@
          <td>Exercise 4.57 part (a), the example <code>new BigInt(0000420000)</code> should instead be <code>new BigInt("0000420000")</code>.</td>
          <td></td>
          <td>Kashi Kumar</td>
-      </tr>                
+      </tr>
       <tr>
          <td>321</td>
          <td>Exercise 4.57 part (b), the example <code>new BigInt("-42").equals(new BigInt("-42"))</code> says that it returns <code>false</code>. Obviously, this is incorrect, and the example should be changed to <code>new BigInt("-42").equals(new BigInt("42"))</code>. Note the sign change on the second <code>BigInt</code> instance.</td>
          <td></td>
          <td>Owen Harris</td>
       </tr>
-                 <tr>
+      <tr>
          <td>322</td>
          <td>Exercise 4.57 part (j), the <code>mulPositive()</code> should receive a <code>BigInt</code> as a parameter.</td>
          <td></td>
@@ -404,7 +415,7 @@
          <td>Example 5.6, replace "an parameter" with "a parameter." This entire example is botched and should be rewritten/omitted. As is, it does not convey the utility of creating a custom exception very well, nor should it use <code>Scanner</code> to demonstrate that capability.</td>
          <td></td>
          <td></td>
-      </tr>            
+      </tr>
       <tr>
          <td>330</td>
          <td>
@@ -447,7 +458,7 @@ class FileInputStreamExample { <br />
          <td>The sentence "So, the program reads one byte then prints it to standard output." should instead be "So, the program reads bytes from the file, then prints them to standard output.".</td>
          <td></td>
          <td></td>
-      </tr>       
+      </tr>
       <tr>
          <td>332</td>
          <td>The last sentence preceding Example 5.9 should read as "Therefore a <code>FileReader</code> interprets only textual files, i.e., files without an encoding. Examples of files <i>with</i> an encoding include <code>.pdf</code>, <code>.docx</code>, and so forth."</td>
@@ -459,7 +470,7 @@ class FileInputStreamExample { <br />
          <td>The parentheses immediately before <code>new</code> in the <code>nonbuffered</code> method are superfluous. Remove both, remove a closing parenthesis before the semicolon, and remove a closing parenthesis before the opening brace on the next line.</td>
          <td></td>
          <td></td>
-      </tr>     
+      </tr>
       <tr>
          <td>342</td>
          <td>Change "I/O error" to "I/O problem."</td>
@@ -472,7 +483,7 @@ class FileInputStreamExample { <br />
          <td></td>
          <td></td>
       </tr>
-     <tr>
+      <tr>
          <td>362</td>
          <td>It's really not correct to say that, "we have no way of passing the index-to-check." We can, of course, write a standard recursive method that increments a parameter-based index.</td>
          <td></td>
@@ -495,7 +506,7 @@ class FileInputStreamExample { <br />
          <td>The first sentence of section 6.2.3, "...algorithms that w will discuss." should be "...algorithms that we will discuss."</td>
          <td></td>
          <td>Elliot Rubinstein</td>
-      </tr>           
+      </tr>
       <tr>
          <td>367</td>
          <td>The semicolons after the first two <code>assertEquals</code> calls should be changed to commas in the <code>assertAll(...)</code> block.</td>
@@ -529,7 +540,7 @@ class FileInputStreamExample { <br />
          </td>
          <td></td>
          <td>Madhav Nawani</td>
-      </tr>            
+      </tr>
       <tr>
          <td>390</td>
          <td>The last sentence of Example 7.4 should read, "Therefore, concluding that, in the average case, binary search runs in &Theta;(lg n) time is incorrect."</td>
