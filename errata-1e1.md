@@ -27,6 +27,12 @@
          <td>Ty Rimedio</td>
       </tr>
       <tr>
+         <td>40</td>
+         <td>In the second code listing, the <code>remSeqCharsHelper</code> method and calls should be <code>remSeqCharsTRHelper</code>.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>41</td>
          <td>
             The <code>else if (b % 2 == 0)</code> case in the <code>pow</code> method should be:
