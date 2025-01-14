@@ -65,6 +65,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>65</td>
+         <td>After the last <code>assertEquals</code>, remove the comma and the last closing parenthesis on the line where its by itself. Add a closing parenthesis and a semicolon.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>76</td>
          <td>Exercise 2.34, part (b) description should read: "Design the <code>isFactorionTR</code> tail recursive method, which solves the same problem as part (a), but uses tail recursion."</td>
          <td></td>
