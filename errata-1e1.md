@@ -89,6 +89,12 @@
          <td>Peter Perry</td>
       </tr>
       <tr>
+         <td>105</td>
+         <td>The semicolon after the first <code>assertEquals</code> call inside <code>testLogSaw</code> should instead be a comma.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>108</td>
          <td>Dynamic "programmingg" => Dynamic programming</td>
          <td></td>
