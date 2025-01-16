@@ -15,6 +15,18 @@
          <td></td>
       </tr>
       <tr>
+         <td>5</td>
+         <td>In the <code>testFToC</code> method, in the respective <code>assertEquals</code> call, the <code>fToC(40)</code> should instead be <code>fToC(-40)</code>.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>6</td>
+         <td>In the <code>testComputeDistance</code> method, all of the <code>assertEquals</code> calls must be prefixed by <code>() -> </code>.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>23</td>
          <td>The <code>static double stats</code> method should return a <code>String</code>, not a <code>double</code>.</td>
          <td></td>
