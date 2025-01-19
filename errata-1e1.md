@@ -108,6 +108,12 @@
       </tr>
       <tr>
          <td>108</td>
+         <td>"Like many algorithm that makes two subsequent recursive calls..." => "Like many algorithms that make two subsequent recursive calls..."</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>108</td>
          <td>Dynamic "programmingg" => Dynamic programming</td>
          <td></td>
          <td>Lillie Donato</td>
