@@ -108,7 +108,7 @@
       </tr>
       <tr>
          <td>108</td>
-         <td>"Like many algorithm that makes two subsequent recursive calls..." => "Like many algorithms that make two subsequent recursive calls..."</td>
+         <td>"Like many algorithm that makes two subsequent recursive calls..." => "Like many algorithms that make multiple, subsequent recursive calls..."</td>
          <td></td>
          <td></td>
       </tr>
