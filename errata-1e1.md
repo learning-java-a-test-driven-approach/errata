@@ -71,6 +71,36 @@
          <td></td>
       </tr>
       <tr>
+         <td>50</td>
+         <td>Example 2.10, the first sentence should instead say, "Let's design an algorithm to determine if a given integer is a Disarium number."</td>
+         <td></td>
+         <td>Mukund Singh</td>
+      </tr>      
+      <tr>
+         <td>51</td>
+         <td>Instead of "The third accumulator, ...", it should say "The second accumulator, ...".</td>
+         <td></td>
+         <td>Mukund Singh</td>
+      </tr>
+      <tr>
+         <td>51</td>
+         <td>The code for <code>isDisariumSR</code> is incorrect. In particular, the accumulator <code>p</code> should store the number of digits and descend down to 1, rather than ascend from 1. One solution is to use the <code>countDigits</code> method from Example 2.9. Another solution is to use <code>Math.floor(Math.log10(n) + 1)</code>.</td>
+         <td></td>
+         <td>Mukund Singh</td>
+      </tr>
+      <tr>
+         <td>51-52</td>
+         <td>The code for <code>isDisariumTR</code> is incorrect. It has the same issue as <code>isDisariumTR</code>.</td>
+         <td></td>
+         <td>Mukund Singh</td>
+      </tr>
+      <tr>
+         <td>52</td>
+         <td>The code for <code>isDisarium</code> is incorrect. It has the same issue as <code>isDisariumSR</code> and <code>isDisariumTR</code>. The method should also be called <code>isDisariumLoop</code>.</td>
+         <td></td>
+         <td>Mukund Singh</td>
+      </tr>               
+      <tr>
          <td>60</td>
          <td>Add the missing ending double quote: <code>"gafia"</code>.</td>
          <td></td>
