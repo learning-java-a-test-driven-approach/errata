@@ -310,6 +310,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>200-201</td>
+         <td>At the bottom of the page, it says that "we should include all instance variables of the object to designate that all the properties affect the object's hash code." This is not true; we should include the necessary information to compute an object's hash code. Including <i>all</i> of the instance variables can be problematic, particularly with circular memory references.</td>
+         <td></td>
+         <td></td>
+      </tr>           
+      <tr>
          <td>216</td>
          <td>Add a comma after the closing parenthesis on <code>assertEquals(3, new Board(2, 3, BOARD).getCols())</code>.</td>
          <td></td>
