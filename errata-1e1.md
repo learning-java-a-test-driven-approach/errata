@@ -615,7 +615,13 @@ class FileInputStreamExample { <br />
       </tr>
       <tr>
          <td>390</td>
-         <td>The last sentence of Example 7.4 should read, "Therefore, concluding that, in the average case, binary search runs in &Theta;(lg n) time is incorrect."</td>
+         <td>The second-to-last sentence of Example 7.4 should end with, "...and lower-bounded by &Omega;(1)."</td>
+         <td></td>
+         <td></td>
+      </tr>     
+      <tr>
+         <td>390</td>
+         <td>The last sentence of Example 7.4 should read, "Therefore, by assuming those upper and lower bounds, we cannot conclude that binary search, in the average case, runs in &Theta;(lg n) time. Refining the upper and lower bounds to be tight allows us to correctly conclude that binary search runs in &Theta;(lg n) in the average case."</td>
          <td></td>
          <td></td>
       </tr>
