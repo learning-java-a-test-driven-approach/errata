@@ -252,6 +252,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>162</td>
+         <td>In the last sentence of the first paragraph of the page, change <code>&lt;T super Integer&gt;</code> to <code>&lt;? super Integer&gt;</code></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>166</td>
          <td>In Figure 3.14, the figure title should be changed from "Teaching Java Binary Search Trees" to "Learning Java Binary Search Trees."</td>
          <td></td>
