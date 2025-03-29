@@ -167,6 +167,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>127</td>
+         <td>In the <code>maxPathSizeHelper</code> method, change instances of <code>level</code> and <code>idx</code> to <code>l</code> and <code>i</code> respectively.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>133</td>
          <td>
             In Example 3.30, the code for instantiating a <code>Comparator</code> inside the <code>priorityByP</code> method should be:
@@ -429,6 +435,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>278</td>
+         <td>"... from the subclass contructor" should be "... from the subclass constructor".</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>280</td>
          <td>In the <code>Archmage</code> code listing, the <code>Set&lt;Type&gt; getTypes()</code> method return type should be <code>Set&lt;IType&gt; getTypes()</code>.</td>
          <td></td>
@@ -558,6 +570,12 @@ class FileInputStreamExample { <br />
       <tr>
          <td>342</td>
          <td>Change "I/O error" to "I/O problem."</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>350</td>
+         <td>Exercise 5.4: "... no punctuation exist" should be "... no punctuation exists."</td>
          <td></td>
          <td></td>
       </tr>
