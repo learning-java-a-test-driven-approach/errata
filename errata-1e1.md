@@ -639,7 +639,7 @@ class FileInputStreamExample { <br />
       </tr>
       <tr>
          <td>411</td>
-         <td>Example 8.6, the second example in <code>testParse</code></td>
+         <td>Example 8.6, the second example in <code>testParse</code> should have <code>new NumNode)</code> written as <code>new NumNode(40)</code>. There should also be one closing parenthesis afterwards.</td>
          <td></td>
          <td></td>
       </tr>
