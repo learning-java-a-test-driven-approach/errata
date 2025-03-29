@@ -514,6 +514,12 @@
       </tr>
      <tr>
          <td>328</td>
+         <td>Example 5.3: after the fourth <code>assertDoesNotThrow</code> invocation, add a comma.</td>
+         <td></td>
+         <td></td>
+      </tr>
+     <tr>
+         <td>328</td>
          <td>Example 5.4: change everything after "... is an invalid cast..." to "... is an invalid and results in the <code>ClassCastException</code> runtime exception. This is because <code>Integer</code> and <code>String</code> share no discernible inheritance relationship, i.e., <code>Integer</code> is not a superclass/subclass of <code>String</code>, nor vice-versa.</td>
          <td></td>
          <td></td>
