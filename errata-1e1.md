@@ -304,6 +304,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>195</td>
+         <td>In the sentences starting with "Going from the simplest to the most complex, ...", rephrase the following sentences to say, "Subroutines and procedures are sets of instructions that can be jumped to and may receive parameters. The term subroutine is, for the most part, outdated. Functions are procedures that can receive parameters and return values. Methods are functions that belong to a class."</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>198</td>
          <td>In the <code>testPointRandom</code> method, the semicolons after the calls to <code>assertEquals</code> should be changed to commas in the <code>assertAll(...)</code> block.</td>
          <td></td>
@@ -622,6 +628,12 @@ class FileInputStreamExample { <br />
       <tr>
          <td>390</td>
          <td>The last sentence of Example 7.4 should read, "Therefore, by assuming those upper and lower bounds, we cannot conclude that binary search, in the average case, runs in &Theta;(lg n) time. Refining the upper and lower bounds to be tight allows us to correctly conclude that binary search runs in &Theta;(lg n) in the average case."</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>411</td>
+         <td>Example 8.6, the second example in <code>testParse</code></td>
          <td></td>
          <td></td>
       </tr>
