@@ -335,7 +335,7 @@
       </tr> 
       <tr>
          <td>210</td>
-         <td>Change all occurrences of <code>this.NAME</code> to <code>this.TITLE</code>.</td>
+         <td>Change all occurrences of <code>.NAME</code> to <code>.TITLE</code>.</td>
          <td></td>
          <td></td>
       </tr>
