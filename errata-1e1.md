@@ -512,6 +512,12 @@
          <td></td>
          <td></td>
       </tr>
+     <tr>
+         <td>328</td>
+         <td>Example 5.4: change everything after "... is an invalid cast..." to "... is an invalid and results in the <code>ClassCastException</code> runtime exception. This is because <code>Integer</code> and <code>String</code> share no discernible inheritance relationship, i.e., <code>Integer</code> is not a superclass/subclass of <code>String</code>, nor vice-versa.</td>
+         <td></td>
+         <td></td>
+      </tr>
       <tr>
          <td>329</td>
          <td>Example 5.6, replace "an parameter" with "a parameter." This entire example is botched and should be rewritten/omitted. As is, it does not convey the utility of creating a custom exception very well, nor should it use <code>Scanner</code> to demonstrate that capability.</td>
