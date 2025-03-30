@@ -264,6 +264,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>159</td>
+         <td>Example 3.49: the third assert statement inside the <code>OptionalTester</code> class, namely <code>assertEquals(42, ...)</code> should end with a comma and not a semi-colon.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>162</td>
          <td>In the last sentence of the first paragraph of the page, change <code>&lt;T super Integer&gt;</code> to <code>&lt;? super Integer&gt;</code></td>
          <td></td>
