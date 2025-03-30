@@ -99,7 +99,13 @@
          <td>The code for <code>isDisarium</code> is incorrect. It has the same issue as <code>isDisariumSR</code> and <code>isDisariumTR</code>. The method should also be called <code>isDisariumLoop</code>.</td>
          <td></td>
          <td>Mukund Singh</td>
-      </tr>               
+      </tr>   
+      <tr>
+         <td>54</td>
+         <td>Example 2.11: the test case for <code>isPrime(2)</code> should return true because 2 is prime. Change <code>assertFalse(isPrime(2))</code> to <code>assertTrue(isPrime(2))</code>.</td>
+         <td></td>
+         <td></td>
+      </tr>
       <tr>
          <td>60</td>
          <td>Add the missing ending double quote: <code>"gafia"</code>.</td>
