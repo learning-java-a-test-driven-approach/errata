@@ -27,6 +27,18 @@
          <td></td>
       </tr>
       <tr>
+         <td>7-8</td>
+         <td>Example 1.3: change all parameters in <code>slope</code> and <code>yIntercept</code> to be <code>double</code> rather than <code>int</code></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>8</td>
+         <td>In the <code>testSlope</code> method, change <code>assertEquals(2, slope(8, 4, 2, 4))</code> to <code>assertEquals(0, slope(8, 4, 2, 4))</code>. Also add a delta of .01 to all tests in <code>testSlope</code> and <code>testYIntercept</code>.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>23</td>
          <td>The <code>static double stats</code> method should return a <code>String</code>, not a <code>double</code>.</td>
          <td></td>
