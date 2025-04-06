@@ -243,6 +243,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>147</td>
+         <td>Example 3.38: In the <code>testIterator</code> method, change the semicolon after the first <code>assertEquals</code> statement to a comma.</td>
+         <td></td>
+         <td></td>
+      </tr>           
+      <tr>
          <td>148</td>
          <td>
             The code snippet of Example 3.40 should be as follows (note that the errata omits the comments due to a strange Markdown bug):
