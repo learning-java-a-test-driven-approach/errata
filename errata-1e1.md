@@ -149,6 +149,12 @@
          <td>Peter Perry</td>
       </tr>
       <tr>
+         <td>91</td>
+         <td>Example 3.5: In the <code>LargestIntTester</code> class, all of the <code>assertEquals</code> calls should be prefaced with <code>() -></code></td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>105</td>
          <td>The semicolon after the first <code>assertEquals</code> call inside <code>testLogSaw</code> should instead be a comma.</td>
          <td></td>
