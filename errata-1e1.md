@@ -388,6 +388,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>213</td>
+         <td>Example 4.11: In the <code>testVideoGameStoreRent</code> method, all of the <code>assertEquals</code> statements should have their semicolons replaced with commas.</td>
+         <td></td>
+         <td></td>
+      </tr>           
+      <tr>
          <td>216</td>
          <td>Add a comma after the closing parenthesis on <code>assertEquals(3, new Board(2, 3, BOARD).getCols())</code>.</td>
          <td></td>
