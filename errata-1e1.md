@@ -179,6 +179,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>121</td>
+         <td>Example 3.25: The first two <code>assertEquals</code> statements in the <code>testTakeEvens</code> method should be terminated with commas and not semicolons.</td>
+         <td></td>
+         <td></td>
+      </tr>      
+      <tr>
          <td>122</td>
          <td>The <code>t1</code> and <code>t2</code> declarations should be instantiated to <code>new ArrayList&lt;&gt;(List.of(...))</code>, because just using <code>List.of</code> creates an immutable list.</td>
          <td></td>
