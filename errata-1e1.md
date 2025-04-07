@@ -507,6 +507,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>290</td>
+         <td>In the <code>testPrimNode</code> method, all <code>assertEquals</code> statements should end with commas except the last.</td>
+         <td></td>
+         <td></td>
+      </tr>            
+      <tr>
          <td>298</td>
          <td>Exercise 4.5, part (d), step (ii) should say, "If u does not exist or t is not the title of a playlist authored by u, return false."</td>
          <td></td>
