@@ -448,6 +448,12 @@
       </tr>
       <tr>
          <td>255</td>
+         <td>Example 4.31, The derivative of 3x^2 - 16x + 100 is 6x - 16.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>255</td>
          <td>Example 4.31, add a space between "their" and "(sub-components)".</td>
          <td></td>
          <td></td>
