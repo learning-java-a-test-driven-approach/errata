@@ -155,6 +155,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>101</td>
+         <td>Example 3.11: There is no <code>assertArrayEquals</code> method for multi-dimensional arrays. To circumvent this, we can use <code>Arrays.deepEquals</code> and assert that it returns <code>true</code>. The <code>Arrays.deepEquals</code> method compares the <i>contents</i> of multi-dimensional arrays.</td>
+         <td></td>
+         <td></td>
+      </tr>      
+      <tr>
          <td>105</td>
          <td>The semicolon after the first <code>assertEquals</code> call inside <code>testLogSaw</code> should instead be a comma.</td>
          <td></td>
