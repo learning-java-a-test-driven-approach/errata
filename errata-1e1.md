@@ -39,6 +39,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>19</td>
+         <td>Example 1.19, there's no reason for this example to be here. It onboards for loops way earlier than they should be talked about.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>23</td>
          <td>The <code>static double stats</code> method should return a <code>String</code>, not a <code>double</code>.</td>
          <td></td>
