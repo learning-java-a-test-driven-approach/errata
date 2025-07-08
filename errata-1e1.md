@@ -81,7 +81,7 @@
             The <code>else if(b % 2 == 0)</code> case in the <code>powTRHelper</code> method should be:
             <pre><code>
         else if(b % 2 == 0) {
-            return powTRHelper(n * n, b / 2, n * acc);
+            return powTRHelper(n * n, b / 2, acc);
         }
         </code></pre>
          </td>
