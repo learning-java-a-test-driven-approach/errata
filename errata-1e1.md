@@ -670,6 +670,12 @@ class FileInputStreamExample { <br />
          <td></td>
       </tr>
       <tr>
+         <td>340</td>
+         <td>Example 3.15: the returned array should be <code>[3, 14, 66]</code> rather than <code>[3, 14, 46]</code>. The test case should be updated to reflect this as well.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>342</td>
          <td>Change "I/O error" to "I/O problem."</td>
          <td></td>
