@@ -155,6 +155,12 @@
          <td>Peter Perry</td>
       </tr>
       <tr>
+         <td>89</td>
+         <td>Example 3.2: the second <code>sumOfDoubles</code> definition should not have a <code>double</code> parameter; it should instead be a <code>double[]</code>.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>91</td>
          <td>Example 3.5: In the <code>LargestIntTester</code> class, all of the <code>assertEquals</code> calls should be prefaced with <code>() -></code></td>
          <td></td>
