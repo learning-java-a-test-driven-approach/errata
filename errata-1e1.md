@@ -57,6 +57,12 @@
          <td>Ty Rimedio</td>
       </tr>
       <tr>
+         <td>38</td>
+         <td>Example 2.6, the example <code>removeDivThreeChars("CC")</code> should not return <code>"CCC"</code>. The input to the method call and the expected output should be swapped. Change "...are located at positions (note the use of position and not index) are divisible by three." to "...are located at positions (note the use of position and not index) <b>that</b> are divisible by three." </td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>40</td>
          <td>In the second code listing, the <code>remSeqCharsHelper</code> method and calls should be <code>remSeqCharsTRHelper</code>.</td>
          <td></td>
@@ -777,3 +783,4 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
