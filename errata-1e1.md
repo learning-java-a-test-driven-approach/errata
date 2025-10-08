@@ -173,6 +173,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>93</td>
+         <td>The <code>indexOfLoop</code> method should contain an <code>i++</code> statement after the conditional, otherwise it never terminates.</td>
+         <td></td>
+         <td>Jonathan Vidal</td>
+      </tr>
+      <tr>
          <td>101</td>
          <td>Example 3.11: There is no <code>assertArrayEquals</code> method for multi-dimensional arrays. To circumvent this, we can use <code>Arrays.deepEquals</code> and assert that it returns <code>true</code>. The <code>Arrays.deepEquals</code> method compares the <i>contents</i> of multi-dimensional arrays.</td>
          <td></td>
@@ -783,4 +789,5 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
