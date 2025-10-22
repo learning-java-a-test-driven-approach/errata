@@ -179,6 +179,12 @@
          <td>Jonathan Vidal</td>
       </tr>
       <tr>
+         <td>100</td>
+         <td>The footnote about Java not having support for ragged/jagged arrays is incorrect. Java does support these. Therefore, the sentence preceding the footnote should read as, "To get the number of columns, because we know that A is an array of one-dimensional arrays, we use A[i].length, where i is the ith row of the two-dimensional array.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>101</td>
          <td>Example 3.11: There is no <code>assertArrayEquals</code> method for multi-dimensional arrays. To circumvent this, we can use <code>Arrays.deepEquals</code> and assert that it returns <code>true</code>. The <code>Arrays.deepEquals</code> method compares the <i>contents</i> of multi-dimensional arrays.</td>
          <td></td>
@@ -789,5 +795,6 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
