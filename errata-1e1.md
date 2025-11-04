@@ -501,6 +501,24 @@
          <td></td>
       </tr>
       <tr>
+         <td>263</td>
+         <td>This is the first time that enums are ever used and we shouldn't introduced them here. Change the type to a String and clarify that it can be one of four values: "NORTH", "EAST", "SOUTH", "WEST".</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
+         <td>263-264</td>
+         <td>This is the first time the switch expression is used with -> rather than :. Change this to the latter representation and change the case analysis to use strings instead of the enumeration type.</td>
+         <td></td>
+         <td></td>
+      </tr>
+     <tr>
+         <td>263-264</td>
+         <td>The switch statements should have breaks in all branches.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>269</td>
          <td>At the top of the page, where we say, "...similar to how we counted instances of the <code>Point</code> class in Chapter 4" should instead say, "...in section 4.1."</td>
          <td></td>
@@ -795,6 +813,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
