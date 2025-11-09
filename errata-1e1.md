@@ -143,6 +143,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>68</td>
+         <td>Concatenating two strings together in a loop does not, in fact, produce another integer. It produces a string. The idea behind this explanation is to describe that repeated concatenations is inefficient in loops/recursion due to repeated string copying.</td>
+         <td></td>
+         <td></td>
+      </tr>  
+      <tr>
          <td>76</td>
          <td>Exercise 2.34, part (b) description should read: "Design the <code>isFactorionTR</code> tail recursive method, which solves the same problem as part (a), but uses tail recursion."</td>
          <td></td>
@@ -813,6 +819,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
