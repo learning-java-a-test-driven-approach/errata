@@ -143,6 +143,25 @@
          <td></td>
       </tr>
       <tr>
+         <td>67-68</td>
+         <td>The <code>FindReplace</code> example has several issues. There are a few missing commas to delimit parameters in the calls to <code>replace</code>. Moreover, the code does not work when the `find` search string is longer than the current substring. So, we need to add the following to the final case analysis:
+
+<pre>
+      // If we reach the end of the string and are in the middle of searching, we append.
+      if (pos > 0 && j >= s.length()) {
+        if (pos == find.length()) {
+          sb.append(repl);
+        } else {
+          sb.append(s, i, s.length());
+        }
+        break;
+      }
+</pre>
+         </td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>68</td>
          <td>Concatenating two strings together in a loop does not, in fact, produce another integer. It produces a string. The idea behind this explanation is to describe that repeated concatenations is inefficient in loops/recursion due to repeated string copying.</td>
          <td></td>
@@ -819,6 +838,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
