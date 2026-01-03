@@ -144,7 +144,7 @@
       </tr>
       <tr>
          <td>67-68</td>
-         <td>The <code>FindReplace</code> example has several issues. There are a few missing commas to delimit parameters in the calls to <code>replace</code>. Moreover, the code does not work when the `find` search string is longer than the current substring. So, we need to add the following to the final case analysis:
+         <td>The <code>FindReplace</code> example has several issues. There are a few missing commas to delimit parameters in the calls to <code>replace</code>. Second, there need to be a comment denoting that the `find` parameter must be non-empty (which is obvious, but this assumption left un-stated means that one of the tests fails). Finally, the code does not work when the `find` search string is longer than the current substring. So, we need to add the following to the final case analysis:
 <br />
 <pre style="white-space: pre;"><code>
       // If we reach the end of the string and are in the middle of searching, we append.
@@ -839,6 +839,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
