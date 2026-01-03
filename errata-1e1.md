@@ -750,6 +750,12 @@ class FileInputStreamExample { <br />
          <td></td>
       </tr>
       <tr>
+         <td>340</td>
+         <td>Example 3.15: the test cases should have the expected and actual values flipped.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>342</td>
          <td>Change "I/O error" to "I/O problem."</td>
          <td></td>
@@ -857,6 +863,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
