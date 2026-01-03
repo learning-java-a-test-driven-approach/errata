@@ -420,6 +420,12 @@
          <td></td>
       </tr>
       <tr>
+         <td>192</td>
+         <td>Replace "Our <code>Point</code> class constructor receive parameters..." to "Our <code>Point</code> class constructor receives parameters...".</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>195</td>
          <td>In the sentences starting with "Going from the simplest to the most complex, ...", rephrase the following sentences to say, "Subroutines and procedures are sets of instructions that can be jumped to and may receive parameters. The term subroutine is, for the most part, outdated. Functions are procedures that can receive parameters and return values. Methods are functions that belong to a class."</td>
          <td></td>
@@ -845,6 +851,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
