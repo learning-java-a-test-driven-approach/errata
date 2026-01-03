@@ -831,6 +831,12 @@ class FileInputStreamExample { <br />
          <td></td>
          <td></td>
       </tr>
+     <tr>
+         <td>415</td>
+         <td>In Example 8.8, the code snippet involving the <code>IntStream</code>, we must add <code>.boxed().toList()</code> for the list to actually generate.</td>
+         <td></td>
+         <td></td>
+      </tr>
       <tr>
          <td>420</td>
          <td>The distinction between concurrency and parallelism is poorly explained. The second sentence of the first paragraph of section 8.4 should say, "<i>Concurrency</i> describes '<i>juggled</i>' actions/computations, whereas <i>parallelism</i> refers to <i>simultaneous</i> actions/computations."</td>
@@ -839,6 +845,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
