@@ -762,6 +762,12 @@ class FileInputStreamExample { <br />
          <td></td>
       </tr>
       <tr>
+         <td>343</td>
+         <td>Replace all occurrences of <code>noOccurrences</code> to <code>numOccurrences</code>.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>350</td>
          <td>Exercise 5.4: "... no punctuation exist" should be "... no punctuation exists."</td>
          <td></td>
@@ -863,6 +869,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
