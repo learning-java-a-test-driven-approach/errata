@@ -343,6 +343,12 @@
          <td>Joshua Park</td>
       </tr>
       <tr>
+         <td>154-155</td>
+         <td>Example 3.45: the <code>expectedLs</code> variable inside <code>testBigIntFibStream</code> should be a list of <code>BigInteger</code> rather than a list of <code>BigInteger[]</code>. The point of this test is to show that the map operation actually worked.</td>
+         <td></td>
+         <td></td>
+      </tr>
+      <tr>
          <td>155</td>
          <td>This isn't an error, but immediately preceding Example 3.46 should be an explanation of intermediate and terminal operations. Here is such an explanation: "In addition to talking about the higher-order functions, we should also briefly describe the difference between intermediate and terminal opreations. An <em>intermediate operation</em> is an operation that returns a stream. For example, <code>map</code>, <code>iterate</code>, <code>limit</code>, and so forth are all intermediate operations because they delay their evaluation by creating a stream that <em>represents</em> the evaluation. Only upon using a <em>terminal operation</em> do those streams execute/evaluate. Examples of terminal operations include <code>toList</code>, <code>reduce</code>, and <code>forEach</code>, because they ultimately perform the last operation on a (sequence of) streams and do not themselves produce a stream. (They, instead, produce non-stream values or have resulting side-effects.)"</td>
          <td></td>
@@ -869,6 +875,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
