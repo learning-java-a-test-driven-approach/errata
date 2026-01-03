@@ -148,7 +148,7 @@
 
 <pre>
       // If we reach the end of the string and are in the middle of searching, we append.
-      if (pos > 0 && j >= s.length()) {
+      if (pos &gt; 0 &amp;&amp; j &gt;= s.length()) {
         if (pos == find.length()) {
           sb.append(repl);
         } else {
@@ -838,6 +838,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
