@@ -215,6 +215,12 @@
          <td>Example 3.11: There is no <code>assertArrayEquals</code> method for multi-dimensional arrays. To circumvent this, we can use <code>Arrays.deepEquals</code> and assert that it returns <code>true</code>. The <code>Arrays.deepEquals</code> method compares the <i>contents</i> of multi-dimensional arrays.</td>
          <td></td>
          <td></td>
+      </tr>
+      <tr>
+         <td>101</td>
+         <td>Example 3.11: The <code>R3</code> variable should be declared as <code>int[][] R3 = {};</code>.</td>
+         <td></td>
+         <td>Cristian Gonzalez</td>
       </tr>      
       <tr>
          <td>105</td>
@@ -875,6 +881,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
