@@ -223,6 +223,12 @@
          <td>Cristian Gonzalez</td>
       </tr>      
       <tr>
+         <td>102</td>
+         <td>Example 3.12: The Javadoc comments for <code>rook</code>'s n and m parameters do not make sense. They should instead say that they represent the bottom-right cell of a rectangular-shaped 2D array. Moreover, the example should not say, "...not necessarily rectangular" but rather "not necessarily square."</td>
+         <td></td>
+         <td>Cristian Gonzalez</td>
+      </tr>      
+      <tr>
          <td>105</td>
          <td>The semicolon after the first <code>assertEquals</code> call inside <code>testLogSaw</code> should instead be a comma.</td>
          <td></td>
@@ -881,6 +887,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
