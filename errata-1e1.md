@@ -260,16 +260,22 @@
       </tr>      
       <tr>
          <td>122</td>
-         <td>The <code>t1</code> and <code>t2</code> declarations should be instantiated to <code>new ArrayList&lt;&gt;(List.of(...))</code>, because just using <code>List.of</code> creates an immutable list.</td>
+         <td>Example 3.26: The <code>t1</code> and <code>t2</code> declarations should be instantiated to <code>new ArrayList&lt;&gt;(List.of(...))</code>, because just using <code>List.of</code> creates an immutable list.</td>
          <td></td>
          <td></td>
       </tr>
       <tr>
          <td>122</td>
-         <td>The semicolons after the calls to <code>filterQuarters</code> and <code>assertEquals</code> should be changed to commas in the <code>assertAll(...)</code> block.</td>
+         <td>Example 3.26: The semicolons after the calls to <code>filterQuarters</code> and <code>assertEquals</code> should be changed to commas in the <code>assertAll(...)</code> block.</td>
          <td></td>
          <td></td>
       </tr>
+      <tr>
+         <td>122</td>
+         <td>Example 3.26: The call to <code>times.length()</code> should be <code>times.size()</code></td>
+         <td></td>
+         <td></td>
+      </tr>      
       <tr>
          <td>127</td>
          <td>In the <code>maxPathSizeHelper</code> method, change instances of <code>level</code> and <code>idx</code> to <code>l</code> and <code>i</code> respectively.</td>
@@ -887,6 +893,7 @@ class FileInputStreamExample { <br />
       </tr>
    </tbody>
 </table>
+
 
 
 
